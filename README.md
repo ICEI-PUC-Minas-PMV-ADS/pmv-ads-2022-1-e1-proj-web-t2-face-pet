@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# PET FACE
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`Desenvolvimento de aplicações web front-end`
 
-`SEMESTRE`
+`01/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste trabalho é desenvolver um sistema interativo que permita aos tutores e pessoas no geral, comuniquem quando o seu animal está perdido/desaparecido ou quando localizado um animal.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Giseli Dziedicz
+* Jamille Nunes da Silva
+* Janaína Pinheiro Leal do Couto
+* Thais Malta Boscatti 
+* Thais Munhoz Carneiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
