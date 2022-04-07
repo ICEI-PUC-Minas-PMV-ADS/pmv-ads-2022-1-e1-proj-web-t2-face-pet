@@ -3,9 +3,9 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade dos tutores na busca por seus animais de estimação que tenham desaparecido, também reduzir a população de animais abandonados, sejam em abrigos ou vivendo pelas ruas. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A falta de um registro oficial, legal de animais desaparecidos devido o descaso das autoridades também é um outro problema que se procura ser solucionado através do Pet Face, contribuindo com um maior alcance de buscas dos animais de estimação e dos respectivos donos. 
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -16,18 +16,24 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é desenvolver um sistema interativo que permita aos tutores e pessoas no geral, comuniquem quando o seu animal está perdido/desaparecido ou quando localizado um animal.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, podemos ressaltar: 
+
+* Funcionalidade principal, é a informação de animais perdidos ou localizados através de imagens, disponibilização de contatos rápido e eficaz. 
+* Agrupar a visualização dos animais desaparecidos e dos localizados, para simplificar a procura e interação. 
+* Canal direto com os tutores para entrega de animais localizados. 
+* Cadastrar dados de um animal perdido e seu responsável, 
+* Cadastrar dados de um animal encontrado e quem localizou, possibilitando o reencontro com a família. 
+* Compartilhamento de dados para mídias sociais. 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O Pet face é um ponto de encontro entre tutores e pessoas que amam animais, onde tem um nobre objetivo para que o reencontro entre os animais perdido aconteça. De uma forma simples e rápida, através da divulgação de fotos dos animais e o número de contato dos responsáveis pelas informações disponibilizadas. 
+A dificuldade de encontrar seu animal de estimação, assim como reportar um animal que foi encontrado, faz com que tutores passem por grande sofrimento em perder seus pets queridos e contribui para o aumento do número de animais abandonados.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
