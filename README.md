@@ -1,8 +1,8 @@
 # PET FACE
 
-`Análise e Desenvolvimento de Sistemas
+Análise e Desenvolvimento de Sistemas
 
-`Desenvolvimento de aplicações web front-end`
+Desenvolvimento de aplicações web front-end
 
 `01/2022`
 
