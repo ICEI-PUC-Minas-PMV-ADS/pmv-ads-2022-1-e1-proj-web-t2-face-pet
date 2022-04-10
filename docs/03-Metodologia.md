@@ -45,8 +45,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 -	**Locked**: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
 
-O quadro kanban do grupo no Trello está disponível através da URL [Quadro Kanban - Pet Face](https://trello.com/invite/b/mEUMYiu7/15f998cd199898595db1242b68d068bf/pet-face) e é apresentado, no estado atual, na Figura X. 
+O quadro kanban do grupo no Trello está disponível através da URL [Quadro Kanban - Pet Face](https://trello.com/b/VnMxBtsf/pet-face) e é apresentado, no estado atual, na Figura X. 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/101607336/162625911-0ed0406b-3ea1-4921-984a-dadc84aac575.png")
+ </p>
 <p align="center"> Figura X - Tela do kanban utilizada pelo grupo </p>
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
