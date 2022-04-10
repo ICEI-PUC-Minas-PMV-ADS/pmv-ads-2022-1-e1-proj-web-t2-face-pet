@@ -10,19 +10,9 @@ Aline Alves tem 41 anos, é Chefe da Divisão de Vigilância de Zoonoses do Muni
 
 André Gomes tem 41 anos, é Advogado Ambientalista e possui um animal de estimação. Em caso de desparecimento, gostaria de localizar com facilidade seu animal de estimação, receio da dificuldade em recuperar animais desaparecidos. Gosta de pratica atividades ao ar livre com regularidade.
 
-....
+Alice Paes tem 33 anos, é bióloga e presidente de uma ONG de resgate de animais. Deseja encontrar com mais facilidade os donos dos animais, diminuir a ocupação dos canis da ONG, e reduzir a população de animais de rua. Sente a dificuldade de localizar o dono de um animal perdido, animais que já possuem dono ocupando lugar nos canis da ONG, pois não encontra um canal onde posso agrupar estas informações. Atua como pesquisadora em uma universidade, ativista na proteção de animais e realiza trabalhos voluntários em ONGs;
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Paula Gonçalves tem 28 anos e trabalha como professora em sua cidade. Sonha em localizar seu animalzinho perdido, pois tem dificuldades deencontrar um canal onde deixar as informações de contato. Atua como educadora infantil, ensina teatro para crianças concietizando sobre o bem estar animal e sempre que possivel oferece lar temporário para animais resgatados. 
 
 ## Histórias de Usuários
 
@@ -99,10 +89,3 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 15/05/2022.  |
 |02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend       |
 |02| A equipe não pode subcontratar o desenvolvimento do trabalho.      |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
