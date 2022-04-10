@@ -48,7 +48,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no Trello está disponível através da URL [Quadro Kanban - Pet Face](https://trello.com/b/VnMxBtsf/pet-face) e é apresentado, no estado atual, na Figura X. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/101607336/162625911-0ed0406b-3ea1-4921-984a-dadc84aac575.png")
+<img src="https://user-images.githubusercontent.com/101607336/162626162-5edac5ff-6342-4670-88ec-aa13dd695bff.png")
  </p>
 <p align="center"> Figura X - Tela do kanban utilizada pelo grupo </p>
 
