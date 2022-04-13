@@ -16,13 +16,13 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |  Gerenciamento do Projeto           |  GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/projects/2    |
 
 ## Gestão de código fonte
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs).
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow mostrado na Figura 01. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs).
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/162616733-d99a27fc-e0c5-40c1-b7c4-86a583d39e5f.png")
+<img src="https://user-images.githubusercontent.com/100412134/163283172-1eb71591-dfd2-4222-835c-e9c2ef7df0ed.png")
  </p>
 
-<p align="center"> Figura X - Fluxo de controle do código fonte no repositório git </p>
+<p align="center"> Figura 01 - Fluxo de controle do código fonte no repositório git </p>
 
 ### Controle de Versão
 
