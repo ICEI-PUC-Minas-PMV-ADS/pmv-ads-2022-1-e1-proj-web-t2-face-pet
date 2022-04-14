@@ -38,6 +38,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 -	**Backlog**: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 -	**To Do**: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+-	**In Progress**: recebe as tarefas que estão em andamento e ainda não foram finalizadas.
 -	**Done**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo no Git está disponível através da URL [Quadro Kanban - Pet Face](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/projects/2) e é apresentado, no estado atual, na Figura 02. 
