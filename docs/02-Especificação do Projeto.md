@@ -29,15 +29,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Alice Paes      | Cadastrar o animal que localizou, informando em qual bairro e localização aproximada que estava nesse momento.   | Porque com essa localização aproximada possibilita que quem está à procura do animal, possa buscar considerando a última vez que o viu. |
 |Paula Gonçalves | Procurar se encontraram um animalzinho em uma data próxima ao que seu animal fugiu . | Para que com a quantidade de anúncios diminua para os que a Paula realmente precisa ver, que são os que a data coincide com o sumiço do seu animalzinho.  |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
@@ -47,14 +38,14 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O site deve permitir que o usuário cadastre as informações do seu animal perdido.  | ALTA | 
-|RF-002| O site deve permitir que seja inserida uma foto do animal no seu cadastro.  | ALTA |
-|RF-003| O site deve permitir que o usuário pesquise os animais cadastrados por suas características físicas.   | MÉDIA | 
-|RF-004| O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi encontrado.  | MÉDIA |
-|RF-005| O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi perdido.   | MÉDIA | 
-|RF-006| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro ou região que foi localizado.   | MÉDIA |
-|RF-007| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro que foi visto pela última vez.   | MÉDIA | 
-|RF-008| O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais  | BAIXA |
-
+|RF-002| O site deve permitir que o usuário cadastre as informações de um animal encontrado, com imagens, e dados de localização e contacto de quem o encontrou.  | ALTA |
+|RF-003| O site deve permitir que seja inserida uma foto do animal no seu cadastro.  | ALTA |
+|RF-004| O site deve permitir que o usuário pesquise os animais cadastrados por suas características físicas.   | MÉDIA | 
+|RF-005| O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi encontrado.  | MÉDIA |
+|RF-006| O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi perdido.   | MÉDIA | 
+|RF-007| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro ou região que foi localizado.   | MÉDIA |
+|RF-008| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro que foi visto pela última vez.   | MÉDIA | 
+|RF-00| O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais  | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -65,27 +56,12 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade   | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 15/05/2022.  |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 14/07/2022.  |
 |02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend       |
 |02| A equipe não pode subcontratar o desenvolvimento do trabalho.      |
