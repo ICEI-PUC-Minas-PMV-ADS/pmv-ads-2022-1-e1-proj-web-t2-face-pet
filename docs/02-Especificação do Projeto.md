@@ -6,13 +6,21 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-Aline Alves tem 41 anos, é Chefe da Divisão de Vigilância de Zoonoses do Município. Motivada á reduzir a população de animais de rua e controle de doenças e agravos transmitidas por animais. Sente dificuldade de localizar o dono de um animal perdido e controlar a população de animais de rua.
-
-André Gomes tem 41 anos, é Advogado Ambientalista e possui um animal de estimação. Em caso de desparecimento, gostaria de localizar com facilidade seu animal de estimação, receio da dificuldade em recuperar animais desaparecidos. Gosta de pratica atividades ao ar livre com regularidade.
-
-Alice Paes tem 33 anos, é bióloga e presidente de uma ONG de resgate de animais. Deseja encontrar com mais facilidade os donos dos animais, diminuir a ocupação dos canis da ONG, e reduzir a população de animais de rua. Sente a dificuldade de localizar o dono de um animal perdido, animais que já possuem dono ocupando lugar nos canis da ONG, pois não encontra um canal onde posso agrupar estas informações. Atua como pesquisadora em uma universidade, ativista na proteção de animais e realiza trabalhos voluntários em ONGs;
-
-Paula Gonçalves tem 28 anos e trabalha como professora em sua cidade. Sonha em localizar seu animalzinho perdido, pois tem dificuldades deencontrar um canal onde deixar as informações de contato. Atua como educadora infantil, ensina teatro para crianças concietizando sobre o bem estar animal e sempre que possivel oferece lar temporário para animais resgatados. 
+<p align="left">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/d188c043623504164283c3de7ff1ce9cd599edef/docs/img/persona.Aline.Alves.png")
+ </p>
+  
+ <p align="left">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/d188c043623504164283c3de7ff1ce9cd599edef/docs/img/persona.Andre%CC%81.Gomes.png")
+ </p> 
+   
+<p align="left">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/d188c043623504164283c3de7ff1ce9cd599edef/docs/img/persona.Alice.paes.png")
+ </p> 
+ 
+ <p align="left">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/d188c043623504164283c3de7ff1ce9cd599edef/docs/img/persona.Paula.goncalves.png")
+ </p> 
 
 ## Histórias de Usuários
 
@@ -45,7 +53,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-006| O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi perdido.   | MÉDIA | 
 |RF-007| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro ou região que foi localizado.   | MÉDIA |
 |RF-008| O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro que foi visto pela última vez.   | MÉDIA | 
-|RF-00| O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais  | BAIXA |
+|RF-009| O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais  | BAIXA |
 
 ### Requisitos não Funcionais
 
