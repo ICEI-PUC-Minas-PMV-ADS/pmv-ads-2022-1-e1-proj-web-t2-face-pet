@@ -47,10 +47,3 @@ O quadro kanban do grupo no Git está disponível através da URL [Quadro Kanban
 <img src="https://user-images.githubusercontent.com/100412134/163491261-bd8fa4d4-d8ea-40c9-bef8-4ead123004bc.png")
  </p>
 <p align="center"> Figura 02 - Tela do kanban utilizada pelo grupo. </p>
-
-A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de categorias:
--	Documentação;
--	Desenvolvimento;
--	Infraestrutura;
--	Testes;
--	Gerência de Projetos.
