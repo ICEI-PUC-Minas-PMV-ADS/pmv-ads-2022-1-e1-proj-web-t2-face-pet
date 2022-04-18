@@ -15,7 +15,8 @@ O objetivo geral deste trabalho é desenvolver um sistema interativo que permita
 
 Como objetivos específicos, podemos ressaltar: 
 
-* Funcionalidade principal, é a informação de animais perdidos ou localizados através de imagens, disponibilização de contatos rápido e eficaz. 
+* Informar sobre animais perdidos ou localizado, através de imagens. 
+* Disponibilizar contato rápido e eficaz.
 * Agrupar a visualização dos animais desaparecidos e dos localizados, para simplificar a procura e interação. 
 * Canal direto com os tutores para entrega de animais localizados. 
 * Cadastrar dados de um animal perdido e seu responsável, 
@@ -24,7 +25,7 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-O Pet face é um ponto de encontro entre tutores e pessoas que amam animais, onde tem um nobre objetivo para que o reencontro entre os animais perdido aconteça. De uma forma simples e rápida, através da divulgação de fotos dos animais e o número de contato dos responsáveis pelas informações disponibilizadas. 
+O Pet face tem um objetivo claro, catalogar os animais perdidos e localizados. De uma forma simples e rápida, através da divulgação de fotos dos animais e o número de contato dos responsáveis pelas informações disponibilizadas. 
 A dificuldade de encontrar seu animal de estimação, assim como reportar um animal que foi encontrado, faz com que tutores passem por grande sofrimento em perder seus pets queridos e contribui para o aumento do número de animais abandonados.
 
 ## Público-Alvo
