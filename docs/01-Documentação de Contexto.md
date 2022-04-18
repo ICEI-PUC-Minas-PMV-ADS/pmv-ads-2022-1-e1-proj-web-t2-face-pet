@@ -25,9 +25,10 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-O Pet face tem um objetivo claro, catalogar os animais perdidos e localizados. De uma forma simples e rápida, através da divulgação de fotos dos animais e o número de contato dos responsáveis pelas informações disponibilizadas. 
+O Pet face tem um objetivo claro, encontrar animais perdidos. Atarvés de um catálogo de animais perdidos com fotos e informações, com o número de contato dos responsáveis. Disponibilizando essas informações em uma rede social, que pode ser acessado por entidades governamentais, ONGs, clinicas veterinárias e pessoas que possam ter encontrado um animal perdido e querem ajudar.
+<p>
 A dificuldade de encontrar seu animal de estimação, assim como reportar um animal que foi encontrado, faz com que tutores passem por grande sofrimento em perder seus pets queridos e contribui para o aumento do número de animais abandonados.
-
+<p>
 ## Público-Alvo
 
 Embora toda a sociedade possa se beneficiar, o foco deste projeto está no público que busca localizar seu animal que se perdeu ou localizar tutores quando um animal é encontrado. 
