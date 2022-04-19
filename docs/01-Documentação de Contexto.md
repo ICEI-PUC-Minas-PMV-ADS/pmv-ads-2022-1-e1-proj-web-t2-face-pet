@@ -1,6 +1,6 @@
 # Introdução
 
-O desaparecimento dos animais causa sofrimentos aos tutores e aos animais, além de ampliar o número de animais nas ruas. Com este projeto visamos elaborar canais de comunicação capazes de ampliar o alcance das buscas por animais perdidos, diminuir a população de animais abandonados e auxiliar ONGs que trabalham com a proteção animal. O público alvo principal são os Tutores de animais, autoridades públicas, ONGs e população em geral que se interessa pelo bem animal.
+Com este projeto visamos elaborar canais de comunicação capazes de ampliar o alcance das buscas por animais perdidos, diminuir a população de animais abandonados e auxiliar ONGs que trabalham com a proteção animal. O público alvo principal são os Tutores de animais, autoridades públicas, ONGs e população em geral que se interessa pelo bem animal. O desaparecimento dos animais causa sofrimentos aos tutores e aos animais, além de ampliar o número de animais nas ruas. 
 
 ## Problema
 Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade dos tutores na busca por seus animais de estimação que tenham desaparecido, também reduzir a população de animais abandonados, sejam em abrigos ou vivendo pelas ruas. 
