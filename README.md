@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/87bd6d0d2a8a0bb5c01488325d94ba04870f8c33/docs/img/Pet.face.logo.png") </p>
+
 # PET FACE
 
 Análise e Desenvolvimento de Sistemas
@@ -10,7 +12,6 @@ O objetivo geral deste trabalho é desenvolver um sistema interativo que permita
 
 ## Integrantes
 
-* Giseli Dziedicz
 * Jamille Nunes da Silva
 * Janaína Pinheiro Leal do Couto
 * Thais Malta Boscatti 
