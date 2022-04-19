@@ -4,9 +4,9 @@
 
 Análise e Desenvolvimento de Sistemas
 
-Desenvolvimento de aplicações web front-end
+Desenvolvimento de aplicações web front-end - Turma 02
 
-`01/2022`
+`1º Semestre de 2022`
 
 O objetivo geral deste trabalho é desenvolver um sistema interativo que permita aos tutores e pessoas no geral, comuniquem quando o seu animal está perdido/desaparecido ou quando localizado um animal.
 
