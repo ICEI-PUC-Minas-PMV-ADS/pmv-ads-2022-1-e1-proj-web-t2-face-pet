@@ -29,10 +29,10 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 ### Divisão de Papéis
 
 A equipe está organizada da seguinte maneira:
--	Scrum Master: Nome
--	Product Owner: Nome
--	Equipe de Desenvolvimento: Nome
-- Equipe de Design: Nome
+-	Scrum Master: Jamille Nunes da Silva
+-	Product Owner: Janaína Couto
+-	Equipe de Desenvolvimento: Thais Malta Boscatti
+- Equipe de Design: Thais Munhoz Carneiro
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Github estruturado com as seguintes listas: 
 
