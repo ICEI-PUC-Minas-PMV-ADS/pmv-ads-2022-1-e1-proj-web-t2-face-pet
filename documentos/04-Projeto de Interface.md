@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## Fluxo do Usuário
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
+O diagrama apresentado na Figura 03 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
 
 
 <p align="center">
