@@ -19,7 +19,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow mostrado na Figura 01. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs).
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/163283172-1eb71591-dfd2-4222-835c-e9c2ef7df0ed.png")
+<img src="https://user-images.githubusercontent.com/100412134/163896898-4a267faf-7fc0-4966-879f-50e76e8af903.png")
  </p>
 
 <p align="center"> Figura 01 - Fluxo de controle do código fonte no repositório Git. </p>
