@@ -14,7 +14,7 @@ O diagrama apresentado na Figura 03 mostra o fluxo de interação do usuário pe
 <img src="https://user-images.githubusercontent.com/100412134/164109282-17bed4c7-51ec-4bc7-904d-1476386c5ec5.png")
  </p>
 
-<p align="center"> Figura 03 - Fluxo de usuário. </p>
+<p align="center"> Figura 03 - Fluxo de telas do usuário. </p>
 
 ## Wireframes
 
