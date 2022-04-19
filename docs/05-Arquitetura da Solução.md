@@ -12,7 +12,7 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 <img src="https://user-images.githubusercontent.com/100412134/164107689-128946e8-3b22-490c-b144-263daf8b04a1.jpg")
  </p>
 
-<p align="center"> Figura 03 - Arquitetura da Solução. </p>
+<p align="center"> Figura 04 - Arquitetura da Solução. </p>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
