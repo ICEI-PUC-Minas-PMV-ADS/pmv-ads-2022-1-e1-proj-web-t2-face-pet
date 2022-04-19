@@ -30,9 +30,3 @@ https://pages.github.com/
 
 A publicação do site no GitHub Pages é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
 https://pages.github.com/
-
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-
