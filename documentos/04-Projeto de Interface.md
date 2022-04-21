@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+Dentre as preocupações para a montagem da interface do sistema, estabeleceu-se foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual projetada para funcionamento em desktops e dispositivos móveis.
 
 ## Fluxo do Usuário
 
@@ -11,10 +11,19 @@ O diagrama apresentado na Figura 03 mostra o fluxo de interação do usuário pe
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/164109282-17bed4c7-51ec-4bc7-904d-1476386c5ec5.png")
+<img src="https://user-images.githubusercontent.com/100412134/164344235-76eb329d-046a-4e75-9167-bc63b43c56a6.jpg")
  </p>
 
 <p align="center"> Figura 03 - Fluxo de telas do usuário. </p>
+
+O fluxo do usuário ocorre da seguinte maneira:
+
+1) Ao acessar o site, o usuário é direcionado para a página principal, descrita no fluxograma como "Home";
+2) Em seguida, o usuário terá três opções: acessar a ferramenta de busca através da página identificada como "Search", cadastrar um novo animal ou acessar a lista de animais já cadastrados;
+3) A partir da página "Search" o usuário poderá aplicar os filtros de busca disponíveis e visualizar o resultado da pesquisa. Em seguida, ele terá três opções: entrar em contato com o dono, deixar um comentário no site ou cadastrar um animal;
+4) Se o usuário desejar cadastrar um animal a partir da página "Home", ele poderá acessar diretamente a página descrita no fluxograma como "Cadastrar Animal";
+5) Por fim, se o usuário optar por acessar a lista completa de animais cadastrados por meio da página descrita no fluxograma como "Animais Cadastrados" ele terá três opções: entrar em contato com o dono, deixar um comentário no site ou cadastrar um animal.
+
 
 ## Wireframes
 
