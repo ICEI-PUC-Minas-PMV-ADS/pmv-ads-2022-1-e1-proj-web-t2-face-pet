@@ -2,11 +2,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
+Nesta seção são apresentados os detalhes técnicos desenvolvidos pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da mesma.
 
 ## Diagrama de componentes
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura 04.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100412134/164107689-128946e8-3b22-490c-b144-263daf8b04a1.jpg")
