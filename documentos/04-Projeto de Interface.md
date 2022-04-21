@@ -44,7 +44,7 @@ Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistema
  A tela da Home-Page irá exibir desde anúncios de buscas até anúncios de pets encontrados baseados em ordem cronológia. Com eixo na estrutura padrão, traz conteúdo com imagens, titulos, comentários, opção de compartilhamento e o resumo do caso. O site conterá em sua página inicia um bloco em barra com os seguintes elementos:
  
  ** - Pesquisa -** Será aberto uma nova página, substituindo a atual, com informações de busca pretendida pelo usuário.
- ** - Perdi, o que fazer? -** Leva o usuário a uma pagina com instruções do que fazer ao perder seu animal
+ ** - Perdi, o que fazer? - ** Leva o usuário a uma pagina com instruções do que fazer ao perder seu animal
  ** - Encontrei, o que fazer? -** Neste caso o usuário que encontrou o pet perdido será direcionado para realizar instruções de como anunciar o pet encontrado.
  ** - Cães -** O usuário será direcionado a uma pagina com anuncios de apenas cães.
  ** - Gatos-** O usuário será direcionasdo a pagina com busca apenas de gatos.
@@ -81,7 +81,7 @@ Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistema
    
     (imagem tela animais cadastrados)
     
-    ## Tela - Comentários
+## Tela - Comentários
     
     Na tela em que será aberta sobre o animal perdido ou encontrado, terá um quadro onde permitirá o usuário comentar sobre a questão proposta, neste quadro deve-se informar o nome de quem está comentando e o texto do comentário. Em seguida, deve-se confirmar ou cancelar o salvamento do comentário.
     
