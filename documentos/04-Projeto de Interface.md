@@ -83,7 +83,7 @@ Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistema
     
 ## Tela - Comentários
     
-    Na tela em que será aberta sobre o animal perdido ou encontrado, terá um quadro onde permitirá o usuário comentar sobre a questão proposta, neste quadro deve-se informar o nome de quem está comentando e o texto do comentário. Em seguida, deve-se confirmar ou cancelar o salvamento do comentário.
+  Na tela em que será aberta sobre o animal perdido ou encontrado, terá um quadro onde permitirá o usuário comentar sobre a questão proposta, neste quadro deve-se informar o nome de quem está comentando e o texto do comentário. Em seguida, deve-se confirmar ou cancelar o salvamento do comentário.
     
      (imagem tela inclusão de comentário)
  
