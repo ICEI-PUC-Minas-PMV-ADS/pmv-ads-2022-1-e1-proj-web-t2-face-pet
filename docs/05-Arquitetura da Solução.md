@@ -21,7 +21,7 @@ A solução implementada conta com os seguintes módulos:
      - **Cadastro** - fotos, informações e contato do tutor;
      - **Comentários** - registro de informações que os usuários possuem a repeito do animal.
      
- - **PET API** - plataforma que permite o acesso às informações sobre animais desaparecidos.
+ - **API** - plataformas que permitam o envio de e-mails e mensagens para o dono.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
