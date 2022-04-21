@@ -9,7 +9,7 @@ Nesta seção são apresentados os detalhes técnicos desenvolvidos pela equipe,
 Os componentes que fazem parte da solução são apresentados na Figura 04.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/164107689-128946e8-3b22-490c-b144-263daf8b04a1.jpg")
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/5bf1bb97a740c08d3f652daf2da0bb1ea038124d/docs/img/WhatsApp%20Image%202022-04-21%20at%2021.44.19.jpeg")
  </p>
 
 <p align="center"> Figura 04 - Arquitetura da Solução. </p>
