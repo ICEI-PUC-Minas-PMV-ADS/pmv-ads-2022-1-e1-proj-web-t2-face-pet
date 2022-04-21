@@ -15,11 +15,12 @@ Os componentes que fazem parte da solução são apresentados na Figura 04.
 <p align="center"> Figura 04 - Arquitetura da Solução. </p>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+- **Navegador** - Interface básica do sistema, janela para navegar na página.  
+  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema, compondo seu esqueleto e toda interatividade da página.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Cadastro** - fotos, informações e contato do tutor;
      - **Comentários** - registro de informações que os usuários possuem a repeito do animal.
+     - **Contatos** - Permissões para que usuários possam contactar uns aos outros em caso de solucionar a questão postada.
      
  - **API** - plataformas que permitam o envio de e-mails e mensagens para o dono.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
