@@ -27,8 +27,6 @@ O fluxo do usuário ocorre da seguinte maneira:
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
 Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistemas são apresentadas em uma estrutura simples conforme apresentada na figura 03. A estrutura é composta por 3 blocos relevantes. 
@@ -41,16 +39,15 @@ Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistema
 
 ## Tela - Home-Page
 
- A tela da Home-Page irá exibir desde anúncios de buscas até anúncios de pets encontrados baseados em ordem cronológia. Com eixo na estrutura padrão, traz conteúdo com imagens, titulos, comentários, opção de compartilhamento e o resumo do caso. O site conterá em sua página inicia um bloco em barra com os seguintes elementos:
+ A tela da Home-Page irá exibir desde anúncios de buscas até anúncios de pets encontrados baseados em ordem cronológia. Com eixo na estrutura padrão, traz conteúdo com imagens, nome do animal, opção de comentário e mais informações (onde contém o resumo do caso, opção de compartilhamento e dados para contatocom tutor). O site conterá em sua página inicial um bloco em barra com os seguintes elementos:
  
  **- Pesquisa -** Será aberto uma nova página, substituindo a atual, com informações de busca pretendida pelo usuário.
  **- Perdi, o que fazer? -** Leva o usuário a uma pagina com instruções do que fazer ao perder seu animal.
  **- Encontrei, o que fazer? -** Neste caso o usuário que encontrou o pet perdido será direcionado para realizar instruções de como anunciar o pet encontrado.
- **- Cães -** O usuário será direcionado a uma pagina com anuncios de apenas cães.
- **- Gatos-** O usuário será direcionasdo a pagina com busca apenas de gatos.
  
- (imagem tela inicia anuncios por ordem cronológica)
- 
+ <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/PAGINA%20HOME.png")
+     
  ## Tela - Resultado de pesquisa
  
  Quando o usuário informar o que pretende na barra de pesquisa e clicar em ok, será direcionado a uma pagina que terá reunidos tudo que for associado por tags àquilo que ele informou em sua busca, como mostra a imagem a seguir. 
@@ -61,25 +58,47 @@ Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistema
  
  A tela que irá abrir quando o usuário selecionar a opção **Perdi, o que fazer?**, terá um bloco de instruções e logo em seguida um formulário para que o tutor possa preencher com a data do desaparecimento, bem como a data de quando perdeu, dados do animal, fotos do animal e dados do tutor. 
  
-  (imagem tela com cadastro)
+  <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/PERDI,%20O%20QUE%20FAZER_.png")
+      </p>
+    
+ <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/FORMULA%CC%81RIO,%20PERDI..png")
+      </p>
+  
+  <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/%20PERDI%20O%20ANIMAL%20COMO%20EXEMPLO.png")
+ </p>
   
   ## Tela - Encontrei, o que fazer?
   
   Esta tela será destinada para quem encontrou um animal perdido e terá os mesmos requisitos da tela anterior.
   
-   (imagem tela com cadastro)
+   <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/ENCONTREI,%20O%20QUE%20FAZER_.png")
+     </p>
+ 
+  <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/FORMULA%CC%81RIO,%20ENCONTREI..png")
+     </p>
+ 
+   <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/ENCONTREI%20O%20ANIMAL%20COMO%20EXEMPLO.png")
+     </p>
    
    ## Tela - Cães
    
    Ao selecionar a opção **Cães**, o usuário será direcionado a uma pagina com diversas fotos de cães desaparecidos, podendo clicar para visualizar informações, comentar e compartilhar em redes sociais.
    
-    (imagem animais cadastrados)
+    <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/TELA%20PESQUISA%20DE%20CA%CC%83ES.png")
    
    ## Tela - Gatos
    
    Esta tela permite a visualização de apenas gatos, tendo a mesma função da tela para cães, podendo o usuário visualizar informações, comentar e compartilhar em rede social.
    
-    (imagem tela animais cadastrados)
+    <p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/298d035755aac05fac1c1850ec9cfa9900829199/docs/img/TELA%20PESQUISA%20DE%20GATOS.png")
     
 ## Tela - Comentários
     
