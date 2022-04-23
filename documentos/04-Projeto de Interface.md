@@ -27,11 +27,11 @@ O fluxo do usuário ocorre da seguinte maneira:
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-Conforme o fluxo de telas apresentado na seção anterior, as janelas do sistemas são apresentadas em uma estrutura simples conforme apresentada na figura 03. A estrutura é composta por 3 blocos relevantes. 
+Conforme o fluxo de telas exposto na seção anterior, as janelas do sistemas são apresentadas em uma estrutura simples conforme mostrada na figura 03. A organização é composta por 3 blocos relevantes. 
 
 **- Cabeçalho -** Local representado pelos elementos fixos de identidade como a logo e indice da página ou menu da aplicação.
 **- Conteúdo -** Exibe o conteúdo da página aberta em questão.
-**- Barra Lateral -** Os elementos de navegação secundárias são exibidas pela barra lateral, linkando conteudos com o menu facilitando navegação entre paginas para o usuário.
+**- Barra Superior -** Os elementos de navegação secundárias são exibidas pela barra superior, linkando conteudos com o menu facilitando navegação entre paginas para o usuário.
 
 ## Tela - Home-Page
 
