@@ -29,10 +29,10 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 ### Divisão de Papéis
 
 A equipe está organizada da seguinte maneira:
--	Scrum Master: Jamille Nunes da Silva
+-	Scrum Master: Thais Munhoz Carneiro
 -	Product Owner: Janaína Couto
--	Equipe de Desenvolvimento: Thais Malta Boscatti
-- Equipe de Design: Thais Munhoz Carneiro
+-	Equipe de Desenvolvimento: Jamille Nunes da Silva
+- Equipe de Design: Thais Malta Boscatti
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Github estruturado com as seguintes listas: 
 
@@ -44,6 +44,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no Git está disponível através da URL [Quadro Kanban - Pet Face](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/6ee6cdf6b13faa1bb623e5fbc2af578d326f965e/docs/img/backlogs.Projects.Github.png) e é apresentado, no estado atual, na Figura 02. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/163491261-bd8fa4d4-d8ea-40c9-bef8-4ead123004bc.png")
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet")
  </p>
 <p align="center"> Figura 02 - Tela do kanban utilizada pelo grupo. </p>
