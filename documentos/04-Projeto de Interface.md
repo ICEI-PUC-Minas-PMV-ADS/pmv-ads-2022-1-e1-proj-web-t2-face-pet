@@ -21,7 +21,7 @@ O fluxo do usuário ocorre da seguinte maneira:
 3) A partir da página "pesquisa" o usuário poderá aplicar os filtros de busca disponíveis e visualizar o resultado da pesquisa. Em seguida, ele terá as seguintes opções: entrar em contato com o dono, deixar um comentário no site, cadastrar um animal localizado ou cadastrar um animal perdido;
 4) Se o usuário desejar cadastrar um animal a partir da página "Home", ele poderá acessar Encontrei, o que fazer? ou Perdi, o que fazer?;
 5) Por fim, se o usuário optar por acessar a lista completa de animais cadastrados por meio da página descrita no fluxograma como "Home" ele poderá  ver todos os animais cadastrados e entrar em contato com o dono  do animal ou deixar um comentário no site.
-6) As opções de cadastro de animais e busca e acesso a Home sempre estarão disponíveis na barra superior do site.
+6) As opções de cadastro de animais, busca e acesso a Home sempre estarão disponíveis na barra superior do site.
 
 
 ## Wireframes
