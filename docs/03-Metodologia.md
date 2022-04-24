@@ -44,6 +44,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no Git está disponível através da URL [Quadro Kanban - Pet Face](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/6ee6cdf6b13faa1bb623e5fbc2af578d326f965e/docs/img/backlogs.Projects.Github.png) e é apresentado, no estado atual, na Figura 02. 
 
 <p align="center">
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet")
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/documentos/kanban_atual.png")
  </p>
 <p align="center"> Figura 02 - Tela do kanban utilizada pelo grupo. </p>
