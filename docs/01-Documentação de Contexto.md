@@ -25,8 +25,8 @@ Como objetivos específicos, podemos ressaltar:
 
 O Pet face tem como objeto centralizar informações de animais que foram encontrados e informações de tutores que procuram seus pets que estão desaparecidos, através de um catálogo de animais perdidos com fotos, informações detalhadas e com o número de contato do responsável por encontrar o bichinho, ou o contato do tutor que está a procura. Disponibilizando essas informações em uma rede social, que pode ser acessado por entidades governamentais, ONGs, clinicas veterinárias e todos que precisam de ajuda.
 <p>
-A dificuldade de encontrar seu animal de estimação, assim como reportar um animal que foi encontrado, faz com que tutores passem por grande sofrimento em perder seus pets queridos e contribui para o aumento do número de animais abandonados, com o Face Pet todas as informações que possibilitam que esse momento tão ruim seja superado, são disponibilizadas em um só portal, diminuindo o tempo de procura e aumentando as chances de um final feliz, para tutores e animaizinhos.
-<p>
+A dificuldade de encontrar seu animal de estimação, assim como reportar um animal que foi encontrado, faz com que tutores passem por grande sofrimento em perder seus pets queridos e contribui para o aumento do número de animais abandonados, com o Face Pet todas as informações que possibilitam que esse momento tão ruim seja superado, são disponibilizadas em um só portal, diminuindo o tempo de procura e aumentando as chances de um final feliz, para tutores e animaizinhos.</p>
+
 ## Público-Alvo
 
 Embora toda a sociedade possa se beneficiar, o foco deste projeto está no público que busca localizar seu animal que se perdeu ou localizar tutores quando um animal é encontrado. 
