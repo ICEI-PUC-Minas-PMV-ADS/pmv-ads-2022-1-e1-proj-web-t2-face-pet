@@ -16,10 +16,10 @@ Como objetivos específicos, podemos ressaltar:
 * Informar sobre animais perdidos ou localizado, através de imagens. 
 * Disponibilizar contato rápido e eficaz.
 * Agrupar a visualização dos animais desaparecidos e dos localizados, para simplificar a procura e interação. 
-* Canal direto com os tutores para entrega de animais localizados. 
+* Disponibilizar um canal direto com os tutores para entrega de animais localizados. 
 * Cadastrar dados de um animal perdido e seu responsável, 
 * Cadastrar dados de um animal encontrado e quem localizou, possibilitando o reencontro com a família. 
-* Compartilhamento de dados para mídias sociais. 
+* Compartilhar dados para mídias sociais. 
 
 ## Justificativa
 
