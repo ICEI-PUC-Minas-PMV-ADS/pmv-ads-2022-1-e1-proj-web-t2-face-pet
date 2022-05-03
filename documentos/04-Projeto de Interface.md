@@ -30,17 +30,21 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 Conforme o fluxo de telas exposto na seção anterior, as janelas do sistemas são apresentadas em uma estrutura simples conforme mostrada na figura 03. A organização é composta por 3 blocos relevantes. 
 
-**- Cabeçalho -** Local representado pelos elementos fixos de identidade como a logo e indice da página ou menu da aplicação.
-**- Conteúdo -** Exibe o conteúdo da página aberta em questão.
-**- Barra Superior -** Os elementos de navegação secundárias são exibidas pela barra superior, linkando conteudos com o menu facilitando navegação entre paginas para o usuário.
+**- Cabeçalho:** Local representado pelos elementos fixos de identidade como a logo e indice da página ou menu da aplicação.
+
+**- Conteúdo:** Exibe o conteúdo da página aberta em questão.
+
+**- Barra Superior:** Os elementos de navegação secundárias são exibidas pela barra superior, linkando conteudos com o menu facilitando navegação entre paginas para o usuário.
 
 ## Tela - Home-Page
 
  A página da Home-Page irá exibir desde anúncios de buscas até anúncios de pets encontrados baseados em ordem cronológia. Com eixo na estrutura padrão, traz conteúdo com imagens, nome do animal, opção de comentário e mais informações (onde contém o resumo do caso, opção de compartilhamento e dados para contatocom tutor). O site conterá em sua página inicial um bloco em barra com os seguintes elementos:
  
- **- Pesquisa -** Será aberto uma nova página, substituindo a atual, com informações de busca pretendida pelo usuário.
- **- Perdi, o que fazer? -** Leva o usuário a uma pagina com instruções do que fazer ao perder seu animal.
- **- Encontrei, o que fazer? -** Neste caso o usuário que encontrou o pet perdido será direcionado para realizar instruções de como anunciar o pet encontrado.
+ **- Pesquisa:** Será aberto uma nova página, substituindo a atual, com informações de busca pretendida pelo usuário.
+ 
+ **- Perdi, o que fazer?:** Leva o usuário a uma pagina com instruções do que fazer ao perder seu animal.
+ 
+ **- Encontrei, o que fazer?:** Neste caso o usuário que encontrou o pet perdido será direcionado para realizar instruções de como anunciar o pet encontrado.
  
  <p align="center">
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/3ee3b1aa31b5cd99a7a27baf544f1df0d0905221/docs/img/PAGINA%20HOME.png")
