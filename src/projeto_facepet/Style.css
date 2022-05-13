@@ -1,0 +1,38 @@
+  body {
+    margin: 0;
+    display: flexbox;
+  }
+  .espacamento {
+    padding-top: 50px;
+    padding-inline: 68px;
+  }
+  .centro {
+    margin: 0;
+    text-align: center;
+    padding-inline: 10%;
+  }
+    #linha-horizontal {
+    width: 100%;
+    border: 1px solid #000;
+    }
+  .search-box {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    }
+  .box {
+    display: inline-block;
+    height: 300px;
+    background-color: rgb(234, 232, 232);
+    vertical-align: top;
+    margin: 25px;
+    padding: 14px;
+    border: 1px solid rgb(174, 173, 173);
+    box-sizing: border-box;
+  }
+  .box-img{
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 2px;
+  }
