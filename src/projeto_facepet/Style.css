@@ -1,6 +1,7 @@
   body {
     margin: 0;
     display: flexbox;
+    align-content: center;
   }
   .espacamento {
     padding-top: 50px;
@@ -18,7 +19,7 @@
   .search-box {
     padding: 60px;
     display: flex;
-    align-items: center;
+    align-content: center;
     }
   .box {
     display: inline-block;
