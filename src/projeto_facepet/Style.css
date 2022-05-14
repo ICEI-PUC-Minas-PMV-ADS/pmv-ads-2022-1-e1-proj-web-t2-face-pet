@@ -1,11 +1,19 @@
+<<<<<<< Updated upstream
   body {
     margin: 0;
     display: flexbox;
     align-content: center;
   }
+=======
+>>>>>>> Stashed changes
   .espacamento {
     padding-top: 50px;
     padding-inline: 68px;
+  }
+  .fonte-cabecalho:hover {
+    font-family: 'Times New Roman';
+    font-size: 21px;
+    color: black;
   }
   .centro {
     margin: 0;
@@ -18,17 +26,22 @@
     }
   .search-box {
     padding: 60px;
+<<<<<<< Updated upstream
     display: flex;
     align-content: center;
+=======
+    display:flexbox;
+    margin-left: 37%;
+>>>>>>> Stashed changes
     }
   .box {
     display: inline-block;
-    height: 300px;
-    background-color: rgb(234, 232, 232);
+    height: 320px;
+    background-color: rgb(235, 232, 232);
     vertical-align: top;
-    margin: 25px;
-    padding: 14px;
-    border: 1px solid rgb(174, 173, 173);
+    margin: 22px;
+    padding: 12px;
+    border: 1px solid rgb(208, 205, 205);
     box-sizing: border-box;
   }
   .box-img{
@@ -36,4 +49,15 @@
     width: 100%;
     height: 60%;
     margin-bottom: 2px;
+  }
+  .botão-comentário {
+    display: block;
+    margin-left: 90px;
+    margin-right: auto;
+  }
+  .texto-box-img {
+    text-align: center;
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
   }
