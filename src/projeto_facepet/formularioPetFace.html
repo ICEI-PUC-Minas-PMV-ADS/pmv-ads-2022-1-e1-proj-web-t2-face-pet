@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <form id="Formulario">
+
+      <div class="contact-box">
+
+        <h2>CADASTRE UM ANIMAL</h2>
+
+        <input type="text" placeholder="Imagem do Animal" name="nome" class="field" />
+        <input type="text" placeholder="Cidade" name="cidade" class="field" required />
+        <input type="text" placeholder="Data em que foi encontrado (dd/mm/aaaa)" name="data" class="field" required />
+        <input type="text" placeholder="Seu nome" name="seuNome" class="field" required />
+        <input type="text" placeholder="E-mail" name="email" class="field" required />
+        <input type="text" placeholder="Telefone - (XX) XXXXX - XXXX" name="telefone" class="field" required />
+        <textarea type="text" placeholder="Informações Adicionais" name="info" class="field" ></textarea>
+        <button class="btn">Cadastrar</button>
+
+
+      </div>
+    </form>
+
+    <div class="cadastro"></div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
