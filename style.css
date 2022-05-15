@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+
+    background: #fff;
+    position: relative;
+    top: 100;
+    width: 100%;
+    text-align: center;
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+    height: auto;
+    background-attachment: local;
+    margin-top: 40px;
+ 
+ }
+
+titulo_nome { color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+descricao_nome { color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+titulo { color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+descricao { color: black;
+    font-size: 15px;
+}
+
+inicio
+{ 
+    position: absolute;
+    top: 100;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    color: #08361c;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    background-attachment: local;
+    margin-top: 100px;
+}
+
+.center {
+    height : 100px;
+    line-height : 100px;
+    border : 1px solid black;
+    }
+
+  
+    body{
+        width: 100%;
+        height: 100vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #form{position: relative;
+        top: -100px;
+        left: 50%;
+        transform: translate(0%,0%);
+    }
+ 
+    #nomeanimal{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #nometutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #telefonetutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #emailtutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #dataperdido{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #localidade{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px  #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #ultlocalizacao{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #infogerais{
+        font-size: 15px;
+        height: 100px;
+        width: 350px;
+        border: 1px  #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    button{color: white;
+        background-color: #013618;
+        width: 350px;
+        height: 40px;
+        margin: 0.5% 30px 10px 45% ;
+        cursor: pointer;
+        
+
+    }
+
+    #footer {
+        width:110%;
+        height: 60px;
+        position: fixed;
+        text-align: center;
+        color: white;
+        background-color: #013618;
+        bottom: -20%;
+        background-attachment: local;
+        position: relative;
+        
+    
+    }
+p{
+    font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px solid rgb(14, 20, 6) ridge;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(217, 233, 225);
+
+}
