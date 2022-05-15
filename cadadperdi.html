@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar animal perdido</title>
+    <linK rel="stylesheet" href="style.css">
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">CADASTRO DE ANIMAIS PERDIDOS</div>
+    <input id="nomeanimal" name="nomeanimal" placeholder="Nome do Animal" type="text" maxlength="100"> <br>
+    <input id="nometutor" name="nometutor" placeholder="Nome do Tutor" type="text" maxlength="100"><br>
+    <input id="telefonetutor" name="telefonetutor" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" type="text"
+        maxlength="100"><br>
+    <input id="emailtutor" name="emailtutor" placeholder="Email do Tutor" type="text" maxlength="100"><br>
+    <input id="dataperdido" name="dataperdido" placeholder="Data que foi perdido xx/xx/xxxx" type="text"
+        maxlength="100"><br>
+    <input id="localidade" name="localidade" placeholder="Cidade e Estado" type="text" maxlength="100"><br>
+    <input id="ultlocalizacao" name="ultlocalizacao" placeholder="Última Localização que foi visto" type="text"
+        maxlength="100"><br>
+    <input id="infogerais" name="infogerais" placeholder="Demais detalhes sobre o animal" type="text"
+        maxlength="300"><br>
+
+    <div id="btn">
+        <button onclick="salvar()">Cadastrar</button>
+    </div>
+    <p></p>
+
+    </div>
+    <script>
+
+        function salvar() {
+
+            localStorage.setItem("nomeanimal", document.querySelector("#nomeanimal").value);
+            localStorage.setItem("nometutor", document.querySelector("#nometutor").value);
+            localStorage.setItem("telefonetutor", document.querySelector("#telefonetutor").value);
+            localStorage.setItem("emailtutor", document.querySelector("#emailtutor").value);
+            localStorage.setItem("dataperdido", document.querySelector("#dataperdido").value);
+            localStorage.setItem("localidade", document.querySelector("#localidade").value);
+            localStorage.setItem("ultlocalizacao", document.querySelector("#ultlocalizacao").value);
+            localStorage.setItem("infogerais", document.querySelector("#infogerais").value);
+
+
+            document.querySelector("p").innerHTML = "O Animal " + localStorage.getItem("nomeanimal") + " foi cadastrado.";
+
+        } 
+    </script>
+
+
+
+
+    <div id="footer">
+        Pet Face - Projeto Grupo 02 PUC Minas 2022/01
+    </div>
+
+</body>
+
+</html>
