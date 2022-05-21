@@ -6,23 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cadastro</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
   <link rel="stylesheet" href="EncontreieAgora_style.css" />
 </head>
 
 <body>
+
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="Pesquisa.html">PESQUISA</a></li>
+        <img class="logo" src="petface.png.png" alt="logo" width="250px">
+        <li><a href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
+        <li><a href="PerdieAgora.html">PERDI, <br> E AGORA?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="linha-horizontal"></div>
   <main>
     <form id="Formulario">
       <div class="contact-box">
 
-        <h2>CADASTRE UM ANIMAL</h2>
+        <h2>CADASTRE UM ANIMAL ENCONTRADO</h2>
 
-        <input type="text" placeholder="Imagem do Animal" name="nome" class="field" />
-        <input type="text" placeholder="Cidade" name="cidade" class="field" required />
-        <input type="text" placeholder="Data em que foi encontrado (dd/mm/aaaa)" name="data" class="field" required />
-        <input type="text" placeholder="Seu nome" name="seuNome" class="field" required />
-        <input type="text" placeholder="E-mail" name="email" class="field" required />
-        <input type="text" placeholder="Telefone - (XX) XXXXX - XXXX" name="telefone" class="field" required />
-        <textarea type="text" placeholder="Informações Adicionais" name="info" class="field" ></textarea>
+        <input type="text" placeholder="Imagem do Animal" class="field" />
+        <input type="text" placeholder="Nome do Animal" name="nome" class="field" />
+        <select class="field">
+          <option value="">Espécie do Animal</option>
+          <option value="male">Cachorro</option>
+          <option value="female">Gato</option>
+          <option value="male">Ave</option>
+          <option value="female">Outro</option>
+        </select>
+        <input type="text" placeholder="Cidade em que foi encontrado" name="cidade" class="field" />
+        <input type="text" placeholder="Data em que foi encontrado (dd/mm/aaaa)" name="data" class="field" />
+        <input type="text" placeholder="Seu nome" name="seuNome" class="field" />
+        <input type="text" placeholder="Seu e-mail" name="email" class="field" required />
+        <input type="text" placeholder="Seu telefone - (XX) XXXXX - XXXX" name="telefone" class="field" />
+        <textarea type="text" placeholder="Informações Adicionais" name="info" class="field"></textarea>
+
         <button class="btn">Cadastrar</button>
       </div>
     </form>
@@ -31,4 +56,5 @@
   </main>
   <script src="./encontreiApp.js"></script>
 </body>
+
 </html>
