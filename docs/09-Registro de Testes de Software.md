@@ -4,7 +4,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ## CT-01 - Cadastrar um animal encontrado
 
-O resultado do teste constatou que formulário situado na página "Encontrei, e agora?" permite o cadastro de animais encontrados corretamente, conforme ilustrado na Figura XX. 
+O resultado do teste constatou que o formulário situado na página "Encontrei, e agora?" permite o cadastro de animais encontrados corretamente, conforme ilustrado na Figura XX. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100412134/169697730-9d2c85b7-ff40-46e7-ae56-bafd77768e9a.png")
@@ -20,4 +20,4 @@ O resultado do teste constatou que o formulário situado na página "Encontrei, 
 <img src="https://user-images.githubusercontent.com/100412134/169697781-62f35b60-a384-4c2b-a03f-f94bdc2f94db.png")
  </p>
 
-<p align="center"> Figura XX - Figura XX - Caso de insucesso para o teste CT-02. </p>
+<p align="center"> Figura XX - Caso de insucesso para o teste CT-02. </p>
