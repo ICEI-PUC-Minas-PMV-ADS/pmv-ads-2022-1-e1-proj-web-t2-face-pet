@@ -1,15 +1,116 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são são apresentadas na sequência.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Cadastro de Animais Encontrados (RF-01, RF-02 e RF-03)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+A tela "Encontrei, e agora?" do sistema apresenta um formulário para que pessoas que encontraram um animal perdido possam localizar o dono do animal. Os cadastros são armazenados no LocalStorage com estruturas de dados baseada em JSON. Um exemplo da tela é apresentado na Figura XX. 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100412134/169698953-575f82de-5384-4d82-944a-1d34c76d02ef.png")
+ </p>
+
+<p align="center"> Figura XX - Tela "Encontrei, e agora?". </p>  
+  
+### Requisitos atendidos
+-	RF-01 - O site deve permitir que o usuário cadastre as informações do seu animal perdido.
+-	RF-02 - O site deve permitir que o usuário cadastre as informações de um animal encontrado, com imagens, e dados de localização e contacto de quem o encontrou.
+-	RF-03 - O site deve permitir que seja inserida uma foto do animal no seu cadastro.
+
+### Artefatos da funcionalidade
+-	EncontreieAgora.html
+-	encontreiApp.js
+-	EncontreieAgora_style.css
+
+### Estrutura de Dados
+
+```
+const Formulario = document.getElementById("Formulario");
+const cadastroArmazenado = document.querySelector(".cadastro");
+const nomeInput = Formulario["nome"];
+const cidadeInput = Formulario["cidade"];
+const dataInput = Formulario["data"];
+const seuNomeInput = Formulario["seuNome"];
+const emailInput = Formulario["email"];
+const telefoneInput = Formulario["telefone"];
+const infoInput = Formulario["info"];
+
+const cadastro = JSON.parse(localStorage.getItem("cadastro")) || [];
+
+const addAnimal = (nome, cidade, data, seuNome, email, telefone, info) => {
+  cadastro.push({
+    nome,
+    cidade,
+    data,
+    seuNome,
+    email,
+    telefone,
+    info
+  });
+
+  localStorage.setItem("cadastro", JSON.stringify(cadastro));
+
+  return { nome, cidade, data, seuNome, email, telefone, info };
+};
+
+const createAnimalElement = ({ nome, cidade, data, seuNome, email, telefone, info }) => {
+  
+  const animalDiv = document.createElement("div");
+  const animalNome = document.createElement("p");
+  const animalCidade = document.createElement("p");
+  const animalData = document.createElement("p");
+  const animalSeuNome = document.createElement("p");
+  const animalEmail = document.createElement("p");
+  const animalTelefone = document.createElement("p");
+  const animalInfo = document.createElement("p");
+
+  
+  animalNome.innerText = "Nome do animal: " + nome;
+  animalCidade.innerText = "Cidade em que foi localizado: " + cidade;
+  animalData.innerText = "Data do desaparecimento: " + data;
+  animalSeuNome.innerText = "Seu nome: " + seuNome;
+  animalEmail.innerText = "E-mail: " + email;
+  animalTelefone.innerText = "Telefone: " + telefone;
+  animalInfo.innerText = "Informações Adicionais: " + info;
+
+  
+  animalDiv.append(animalNome, animalCidade, animalData, animalSeuNome, animalEmail, animalTelefone, animalInfo);
+  cadastroArmazenado.appendChild(animalDiv);
+
+  cadastroArmazenado.style.display = cadastro.length === 0 ? "none" : "flex";
+};
+
+cadastroArmazenado.style.display = cadastro.length === 0 ? "none" : "flex";
+
+cadastro.forEach(createAnimalElement);
+
+Formulario.onsubmit = e => {
+  e.preventDefault();
+
+  const newAnimal = addAnimal(
+    nomeInput.value,
+    cidadeInput.value,
+    dataInput.value,
+    seuNomeInput.value,
+    emailInput.value,
+    telefoneInput.value,
+    infoInput.value,
+  );
+
+  createAnimalElement(newAnimal);
+
+  nomeInput.value = "";
+  cidadeInput.value = "";
+  dataInput.value = "";
+  seuNomeInput.value = "";
+  emailInput.value = "";
+  telefoneInput.value = "";
+  infoInput.value = "";
+};
+```
+### Instruções de acesso
+-	Abra um navegador de Internet e informe a URL do site;
+-	Na tela principal, clique em "Encontrei, e agora?" no menu de navegação;
+- O formulário de cadastro será exibido;
+- Preencha o formulário de clique o no botão "Cadastrar".
+
