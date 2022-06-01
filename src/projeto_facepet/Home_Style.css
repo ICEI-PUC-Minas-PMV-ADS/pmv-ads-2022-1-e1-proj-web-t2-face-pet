@@ -100,3 +100,7 @@
     position: relative;
     padding-top: 8px;
 }
+
+.teste {
+  min-width: 150px;
+}
