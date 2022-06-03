@@ -22,6 +22,29 @@ Ainda encontrará a opção de compartilhamento para rede sociais e comentários
 -	Home_style.css
 
 
+## Página de Pesquisa (RF-004, RF-005, RF-006, RF-007 e RF-008)
+
+A tela "Pesquisa" apresenta cabeçalho com as opções de navegar entre as páginas "Home", "Encontrei, e agora?" e "Perdi, e agora?". Na página Pesquisa o usuário poderá
+realizar sua busca de animais por características físicas, data em que foi encontrado, data em que foi perdido, pesquisa por bairros ou regiões. Além disso, a página apresenta filtros para facilitar e especificar melhor o que se pretende buscar.
+
+
+<p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/9fb65706c4e42529c9d3cde89b50e1e1f7ae7d61/docs/img/Captura%20de%20ecr%C3%A3%202022-06-03%20231032.png"
+     </p>
+ 
+ <p align="center"> Tela "Pesquisa". </p>  
+ 
+ ### Requisitos atendidos
+ - RF-004 - O site deve permitir que o usuário pesquise os animais cadastrados por suas características físicas.
+ - RF-005 - O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi encontrado.
+ - RF-006 - O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi perdido.
+ - RF-007 - O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro ou região que foi localizado.
+ - RF-008 - O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro que foi visto pela última vez.
+
+### Artefatos de funcionalidade
+- Pesquisa.html
+- Pesquisa_style.css
+
 ## Cadastro de Animais Encontrados (RF-01, RF-02 e RF-03)
 
 A tela "Encontrei, e agora?" do sistema apresenta um formulário para que pessoas que encontraram um animal perdido possam localizar o dono do animal. Os cadastros são armazenados no LocalStorage com estruturas de dados baseada em JSON. Um exemplo da tela é apresentado na Figura XX. 
