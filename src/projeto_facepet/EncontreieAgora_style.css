@@ -164,3 +164,14 @@ h2:after{
   .cadastro div * {
     margin: 5px;
   }
+#footer {
+    width:100%;
+    height: 60px;
+    position: fixed;
+    text-align: center;
+    color: white;
+    background-color: #013618;
+    background-attachment: local;
+    position: relative;
+    padding-top: 8px;
+}
