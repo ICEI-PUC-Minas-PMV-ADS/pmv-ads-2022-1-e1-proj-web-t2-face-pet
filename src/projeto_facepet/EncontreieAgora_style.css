@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
 	text-decoration:none;
 }
 
@@ -61,6 +60,7 @@ nav {
 	background: #fff;
 	margin: 20px auto;
 	padding: 30px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
@@ -70,6 +70,7 @@ h2{
   color: #2ecc71;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2:after{
@@ -80,7 +81,8 @@ h2:after{
     transform: translateX(-50%);
     height: 4px;
     width: 50px;
-    border-radius: 2px;    
+    border-radius: 2px;
+   font-family: 'Montserrat', sans-serif;
 }
 
 .field{
@@ -93,6 +95,7 @@ h2:after{
 	margin-bottom: 22px;
 	transition: .3s;
 	color: gray;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .field:hover{
@@ -113,6 +116,7 @@ h2:after{
 	outline: none;
 	cursor: pointer;
 	transition: .3s;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover{
@@ -144,14 +148,16 @@ h2:after{
 	max-width: 500px;
 	width: 100%;
 	margin-left: 420px;
+	font-family: 'Montserrat', sans-serif;
 	
   }
   
   .cadastro div {
     max-width: 500px;
-	width: 100%;
+    width: 100%;
     padding: 10px;
     text-align: center;
+   font-family: 'Montserrat', sans-serif;
 		
   }
   
