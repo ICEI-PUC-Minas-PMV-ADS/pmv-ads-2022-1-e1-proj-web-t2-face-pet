@@ -9,55 +9,88 @@
     <linK rel="stylesheet" href="PerdieAgora_style.css">
     <script type="text/javascript"></script>
 </head>
-
-
 <body>
-<header>
-    <nav>
-        <ul class="nav-list">
-            <li><a class="text-decoration-none" href="Home.html">HOME</a></li>
-            <li><a class="text-decoration-none" href="Pesquisa.html">PESQUISA</a></li>
-            <img class="logo" src="petface.png.png" alt="logo" width="250px">
-            <li><a class="text-decoration-none" href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
-            <li><a class="text-decoration-none" href="PerdieAgora.html">PERDI, <br> E AGORA?</a></li>
-        </ul>
-    </nav>
-</header>
-<div id="linha-horizontal"></div>
-<form id="Formulario">
-    <div class="contact-box">
 
-    <h2>CADASTRO DE ANIMAIS PERDIDOS<h2>
-        <input type="text" placeholder="Imagem do Animal" class="field" />
-        <input type="text" placeholder="Nome do Animal" name="animal" class="field" />
-    <select class="field">
-        <option value="">Espécie do Animal</option>
-        <option value="male">Cachorro</option>
-        <option value="female">Gato</option>
-        <option value="male">Ave</option>
-        <option value="female">Outro</option>
-        </select>
-    <input  type="text"  placeholder="Nome do Tutor" name="tutor" maxlength="100" class="field"/>
-    <input  type="text"  placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone" maxlength="100" class="field"/>
-    <input type="text"  placeholder="Email do Tutor" name = "emailtutor"maxlength ="100" class="field"/>
-        <input type = "text" placeholder="Data que o Animal Foi Perdido" name="dataperdido" maxlength="100" class="field"/>
-        <input type="text" placeholder="Cidade e Estado" name="localidade"maxlength="200" class="field"/>
-        <input type="text"  placeholder="Última Localização que o Animal foi Visto" class="field" />
-        <textarea type="text"   placeholder="Demais detalhes sobre o Animal" name="info" class="field"></textarea> </textarea> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-sm bg-light">
+            <ul class="nav-list">
+                <li><a class="text-decoration-none" href="Home.html">HOME</a></li>
+                <li><a class="text-decoration-none" href="Pesquisa.html">PESQUISA</a></li>
+                <img class="logo" src="image/petfacelogo.ico" alt="logo" width="250px">
+                <li><a class="text-decoration-none" href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
+                <li><a class="text-decoration-none" href="PerdieAgora.html">PERDI, <br> E AGORA?</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div id="linha-horizontal"></div>
 
-        <button class="btn">Cadastrar</button>
+  <section class="flex-container">
+
+
+    <div class="flex-item nav">
+        <div class="row">
+          <div class="box col teste">
+              <img src="image/cao01.png" class="box-img">
+              <div class="texto-box-img">
+              <div class="titulo_nome">LESSI</div>
+              <div class="descricao_nome">Nome do Tutor: Henrique</div>
+              <div class="descricao_nome">Telefone: (11) 11111-11111</div><br>
+              <p>Femêa, 5 anos. Perde-se em Santos próximo a praia no dia 21/12/21 ...</p>
+              </div>
+              <div class="botão-comentário"><br>
+              <a href="https://www.facebook.com/"> <img src="image/compartilhar-facebook.png" width="75px" alt="10px"></a> 
+              <a href="teste.html"> <img src="image/comentario.png" width="21px" alt="30px"></a>
+              </div>
+          </div>
+         
+        </div>
     </div>
-</form>
-
-<div class="cadastro"></div>
-</main>
-<script src="./perdiApp.js"></script>
+    <form id="Formulario">
 
 
-    <div id="footer">
+            <div class="flex item nav-lista">
+                <h2>CADASTRO DE ANIMAIS PERDIDOS<h2>
+                        <input type="text" placeholder="Imagem do Animal" class="field" />
+                        <input type="text" placeholder="Nome do Animal" name="animal" class="field" />
+                        <select class="field">
+                            <option value="">Espécie do Animal</option>
+                            <option value="male">Cachorro</option>
+                            <option value="female">Gato</option>
+                            <option value="male">Ave</option>
+                            <option value="female">Outro</option>
+                        </select>
+                        <input type="text" placeholder="Nome do Tutor" name="tutor" maxlength="100" class="field" />
+                        <input type="text" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone"
+                            maxlength="100" class="field" />
+                        <input type="text" placeholder="Email do Tutor" name="emailtutor" maxlength="100"
+                            class="field" />
+                        <input type="text" placeholder="Data que o Animal Foi Perdido" name="dataperdido"
+                            maxlength="100" class="field" />
+                        <input type="text" placeholder="Cidade e Estado" name="localidade" maxlength="200"
+                            class="field" />
+                        <input type="text" placeholder="Última Localização que o Animal foi Visto" class="field" />
+                        <textarea type="text" placeholder="Demais detalhes sobre o Animal" name="info"
+                            class="field"></textarea> </textarea>
+
+                      <button class="btn">Cadastrar</button>
+            </div>
+       
+    </form>
+    <footer class="rodape">
         Pet Face - Encontre o seu pet aqui! <br>
         Projeto Grupo 02 - PUC Minas 2022/01
-    </div>
+     </footer>
+</section>
+
+
+    <div class="cadastro"></div>
+    </main>
+
+    <script src="./perdiApp.js"></script>
+
+
+
+  
 
 </body>
 

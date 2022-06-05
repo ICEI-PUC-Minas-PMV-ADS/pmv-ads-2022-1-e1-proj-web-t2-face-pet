@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 .header {
 
     background: #fff;
@@ -18,26 +20,30 @@
     font-weight: bold;
     height: auto;
     background-attachment: local;
-    margin-top: 40px;
+    margin-top: 30px;
  
  }
 
-titulo_nome { color: black;
-    font-size: 20px;
-    font-weight: bold;
+.titulo_nome { color: rgb(46, 46, 46);
+    font-size: 18px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
     
 }
-descricao_nome { color: black;
-    font-size: 20px;
-    font-weight: bold;
+.descricao_nome { color: rgb(46, 46, 46);
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
 }
 
-titulo { color: black;
+.titulo { color: black;
     font-size: 18px;
     font-weight: bold;
 }
 
-descricao { color: black;
+.descricao { color: black;
     font-size: 15px;
 }
 
@@ -62,13 +68,7 @@ inicio
     line-height : 100px;
     border : 1px solid black;
     }
-
-  
-    body{
-        width: 100%;
-        height: 100vh;
-        font-family: 'Montserrat', sans-serif;
-    }
+ 
     #form{position: relative;
         top: -100px;
         left: 50%;
@@ -147,37 +147,26 @@ inicio
         margin: 0.5% 30px 10px 45% ;
         background-color: rgb(236, 234, 234);
     }
-    button{color: white;
-        background-color: #013618;
-        width: 350px;
-        height: 40px;
-        margin: 0.5% 30px 10px 45% ;
-        cursor: pointer;
-        
 
-    }
+    .rodape {
 
-    #footer {
         width:100%;
-        height: 50px;
-        position: fixed;
         text-align: center;
         color: white;
         background-color: #013618;
-        bottom: -20%;
-        background-attachment: local;
-        position: relative;
+        background-attachment: fixed;
+        top: 150%;
+        position: absolute;
+        
+       
         
     
     }
 p{
-    font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px solid rgb(14, 20, 6) ridge;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(217, 233, 225);
+    text-align: center;
+      font-size: 15px;
+      font-family:'Times New Roman', Times, serif;
+      color: rgb(46, 46, 46);
 
 }
 header a:hover{
@@ -185,47 +174,58 @@ header a:hover{
     font-size: 25px;
     }
 
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    background: #ffffff;
-    height: 30vh;
-    text-align: justify;
-    overflow: hidden;
+
+    .nav-list {
+        list-style: none;
+          display: flex;
+          margin: 200px auto;
+         
+         
+    }
+    
+
+.flex-container{
+display: flex;
+
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    margin: 200px auto; 
-}
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        background: #ffffff;
+        height: 30vh;
+        text-align: justify;
+        overflow: hidden;
+        
+    }
+    
 
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 70px 30px;
- }
-
- 
-#linha-horizontal {
-    width: 100%;
-    border: 1px solid rgb(89, 87, 87);
-   }
+    
+    .nav-list li {
+        display: flex;
+        letter-spacing: 3px;
+        margin-left: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 70px 30px;
+     }
+    
 
    .field{
-	width: 100%;
+	width: 50%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
+	padding: 0.4rem 1rem;
 	font-size: 1.1rem;
-	margin-bottom: 22px;
+	margin-bottom: 5px;
+    margin-top: 5px;
 	transition: .3s;
 	color: gray;
+
+
 }
 .contact-box{
 	max-width: 500px;
@@ -233,6 +233,7 @@ header a:hover{
 	background: #fff;
 	margin: 20px auto;
 	padding: 30px;
+    
 }
 h2{
     font-size: 24px;
@@ -241,6 +242,7 @@ h2{
     color: #2ecc71;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 40px;
   }
   
   h2:after{
@@ -273,7 +275,7 @@ h2{
     max-width: 500px;
 	width: 100%;
     padding: 10px;
-    text-align: center;
+    text-align: right;
 		
   }
   
@@ -281,12 +283,59 @@ h2{
     margin: 5px;
   }
 
-button{color: white;
+.btn{color: white;
     background-color: #013618;
     width: 350px;
     height: 40px;
-    margin: 10% 30px 10px 10% ;
+    margin: 3% 10% -30% 13% ;
     cursor: pointer;
     
 
 }
+
+
+.box-img{
+    margin-top: 0%;
+    
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(208, 205, 210);
+    
+}
+  
+.box {
+    margin-top: 30%;
+       
+    height: 400px;
+    width: 120%;
+    background-color: rgb(235, 232, 232);
+    margin-left: 60%;
+    padding: 20px;
+    border: 1px solid rgb(208, 205, 205);
+    
+  }
+  
+    .botão-comentário {
+      display: block;
+      margin-left: 80px;
+      margin-right: auto;
+    }
+  
+    .texto-box-img {
+        
+      text-align: center;
+      font-size: 10px;
+      font-family:'Times New Roman', Times, serif;
+      color: rgb(46, 46, 46);
+    }
+  
+  .teste {
+    min-width: 150px;
+  }
+
+  
+ #linha-horizontal {
+	width: 100%;
+	border: 1px solid rgb(89, 87, 87);
+   }
