@@ -7,6 +7,15 @@ Os requisitos para realização dos testes de software são:
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
+| Caso de Teste  |  CT-01 - Página Home |
+| ------------------- | ------------------- |
+|  Requisitos Associados |  RF-009 O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais.<br>
+|  Objetivo do Teste |  Verificar se usuário consegue compartilhar as informações do animal em rede social "Facebook"|
+|  Passos | 1) Acessar o Navegador <br> 2) No grid com as informaçoes do animal, tanto perdido quando encontrado possui o botão de compartilhamento. <br>3) Clicar no botão compartilhar. <br>4) Acessar sua conta no facebook <br>5) Compartilhar o link do site com a imagem e mais informações do animal do animal; |
+|  Critérios de Êxito |  ● O compartilhamento só estará completo após usuário clicar em "compartilhar" e inserir as informações de acesso para o Facebook.|
+
+<br><br>
+
 | Caso de Teste  |  CT-01 - Cadastrar um animal encontrado  |
 | ------------------- | ------------------- |
 |  Requisitos Associados |  RF-001 O site deve permitir que o usuário cadastre as informações do seu animal perdido.<br> RF-002 O site deve permitir que o usuário cadastre as informações de um animal encontrado, com imagens, e dados de localização e contacto de quem o encontrou.<br> RF-003 O site deve permitir que seja inserida uma foto do animal no seu cadastro. |
