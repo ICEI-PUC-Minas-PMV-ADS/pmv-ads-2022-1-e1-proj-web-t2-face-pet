@@ -11,7 +11,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 ## Página de Pesquisa
 
 ## Página de Cadastro "Encontrei, e agora?"
-Tela em que é possível cadastrar os animais encontrados por pessoas que desejam localizar o dono do animal, conforme descrito na Figura X.
+Tela em que é possível cadastrar os animais encontrados por pessoas que desejam localizar o dono do animal, conforme descrito na Figura 05.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100412134/172958365-85883fa1-a7be-46c7-aedd-2f5c572d6f71.png")
