@@ -50,7 +50,7 @@ realizar sua busca de animais por características físicas, data em que foi enc
 A tela "Encontrei, e agora?" do sistema apresenta um formulário para que pessoas que encontraram um animal perdido possam localizar o dono do animal. Os cadastros são armazenados no LocalStorage com estruturas de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 08. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100412134/169698953-575f82de-5384-4d82-944a-1d34c76d02ef.png")
+<img src="https://user-images.githubusercontent.com/100412134/172958365-85883fa1-a7be-46c7-aedd-2f5c572d6f71.png")
  </p>
 
 <p align="center"> Figura 08 - Tela "Encontrei, e agora?". </p>  
