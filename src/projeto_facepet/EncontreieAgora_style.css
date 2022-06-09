@@ -141,7 +141,7 @@ h2:after{
 }
   
   .cadastro {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -156,6 +156,7 @@ h2:after{
   }
   
   .cadastro div {
+    display: none;
     max-width: 500px;
     width: 100%;
     padding: 10px;
@@ -165,6 +166,7 @@ h2:after{
   }
   
   .cadastro div * {
+    display: none;
     margin: 5px;
   }
 #footer {
