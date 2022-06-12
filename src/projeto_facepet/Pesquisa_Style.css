@@ -58,7 +58,7 @@ nav {
      width: 200px;
     }
 
-.search-box {
+#search-box {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -85,8 +85,7 @@ p{
     text-align: center;
     position: absolute;
     top: 36%;
-    left: 45%;
-    
+    left: 43%;   
     
 }
 
@@ -133,10 +132,11 @@ p{
 }
 
 .rodape {
-    font-family:'Times New Roman', Times, serif;
-    text-align: right;
+    width:100%;
+    text-align: center;
+    color: white;
+    background-color: #013618;
+    background-attachment: fixed;
+    top: 150%;
     position: absolute;
-    top: 90%;
-    right: 10%;
 }
-
