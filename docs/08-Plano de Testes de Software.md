@@ -32,12 +32,12 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 <br><br>
 
-| Caso de Teste  |  CT-01 - Cadastrar um animal perdido  |
+| Caso de Teste  |  CT-01 - Cadastrar um animal perdido                                                                                      |
 | ------------------- | ------------------- |
 |  Requisitos Associados |  RF-001 O site deve permitir que o usuário cadastre as informações do seu animal perdido.<br> 
-|  Objetivo do Teste |  Verificar se o usuário consegue cadastrar um animal perdido fornecendo suas informações.|
+|  Objetivo do Teste |  Verificar se o usuário consegue cadastrar um animal perdido fornecendo suas informações.                             |
 |  Passos | 1) Acessar o Navegador <br> 2) Informar o endereço do site <br>3) Visualizar a página "Perdi, e agora?" <br>4) Preencher os campos do formulário de cadastro <br>5) Clicar no botão "Cadastrar" |
-|  Critérios de Êxito |  ● O cadastro deve ser realizado após o usuário clicar no botão "Cadastrar".|
+|  Critérios de Êxito |  ● O cadastro deve ser realizado após o usuário clicar no botão "Cadastrar".                                         |
 
 | Caso de Teste  |  CT-02 - Cadastrar um animal encontrado sem informar o telefone do tutor  |
 | ------------------- | ------------------- |
