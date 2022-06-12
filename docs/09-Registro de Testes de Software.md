@@ -33,3 +33,24 @@ O resultado do teste constatou que o formulário situado na página "Encontrei, 
  </p>
 
 <p align="center"> Figura 10 - Caso de sucesso para o teste CT-02. </p>
+
+## CT-03 - Resultado de busca de animal cadastrado
+
+O resultado do teste constatou que o formulário de busca situado na página "Pesquisa" permite que seja encontrado animais cadastrados com as características informadas, conforme ilustrado na figura 11.
+
+<p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/56b227710642260c4d90c50b23fe526addb26a96/docs/img/resultadoPesquisa.png")
+ </p>
+
+<p align="center"> Figura 11 - Caso de sucesso para o teste CT-03. </p>
+
+## CT-04 - Pesquisar animal não cadastrado
+
+O resultado do teste constatou que o formulário de busca situado na página "Pesquisa" direciona o usuário para a página de erro e solicita que seja feita uma nova busca, conforme ilustrado na Figura 12.
+
+<p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/9b80f118fc28636daefaec39cdf78e4b43f61ee2/docs/img/Pesquisa_Vazia.png")
+ </p>
+
+<p align="center"> Figura 12 - Caso de insucesso para o teste CT-04. </p>
+
