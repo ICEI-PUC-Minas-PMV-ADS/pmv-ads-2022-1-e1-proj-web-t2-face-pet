@@ -39,7 +39,7 @@ O resultado do teste constatou que o formulário situado na página "Encontrei, 
 O resultado do teste constatou que o formulário de busca situado na página "Pesquisa" permite que seja encontrado animais cadastrados com as características informadas, conforme ilustrado na figura 11.
 
 <p align="center">
-<img src="docs/img/resultadoPesquisa.png")
+<img src="[docs/img/resultadoPesquisa.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/56b227710642260c4d90c50b23fe526addb26a96/docs/img/resultadoPesquisa.png)")
  </p>
 
 <p align="center"> Figura 11 - Caso de sucesso para o teste CT-03. </p>
