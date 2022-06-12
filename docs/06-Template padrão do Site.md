@@ -12,7 +12,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 Tela de busca a animais perdidos com filtros para agilizar a procura do pet desaparecido. 
 
 <p align="center>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/a6c8920d219722aeb1c615956a5fbf7083b11c92/docs/img/Captura%20de%20ecr%C3%A3%202022-06-03%20231032.png"
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/a6c8920d219722aeb1c615956a5fbf7083b11c92/docs/img/Captura%20de%20ecr%C3%A3%202022-06-03%20231032.png")
 </p>
 
 <p align="center"> Figura - Tela "Pesquisa". </p>
