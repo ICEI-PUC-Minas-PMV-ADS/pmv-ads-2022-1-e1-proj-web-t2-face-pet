@@ -34,6 +34,29 @@ O resultado do teste constatou que o formulário situado na página "Encontrei, 
 
 <p align="center"> Figura 10 - Caso de sucesso para o teste CT-02. </p>
 
+
+
+
+## CT-01 - Cadastrar um animal perdido
+
+O resultado do teste constatou que o formulário situado na página "Perdi, e agora?" permite o cadastro de animais encontrados corretamente, conforme ilustrado na Figura 01. 
+
+<p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/cadastro_sucesso.png")
+ </p>
+
+<p align="center"> Figura 01 - Caso de sucesso para o teste CT-01. </p>
+
+## CT-02 - Cadastrar um animal encontrado sem preencher o telefone do tutor
+
+O resultado do teste constatou que o formulário situado na página "Perdi, e agora?" não permite que o cadastro de animais perdidos seja finalizado sem informar o número do telefone do tutor..
+
+<p align="center">
+<img src="[https://user-images.githubusercontent.com/100412134/171067456-7e7b731e-b9e0-4fa5-b3ef-7c102b510885.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/cadastro_erro_telefone.png)")
+ </p>
+
+<p align="center"> Figura 02 - Caso de sucesso para o teste CT-02. </p>
+
 ## CT-03 - Resultado de busca de animal cadastrado
 
 O resultado do teste constatou que o formulário de busca situado na página "Pesquisa" permite que seja encontrado animais cadastrados com as características informadas, conforme ilustrado na figura 11.
