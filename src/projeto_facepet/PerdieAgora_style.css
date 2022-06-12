@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -21,243 +21,172 @@
     height: auto;
     background-attachment: local;
     margin-top: 30px;
- 
- }
 
-.titulo_nome { color: rgb(46, 46, 46);
+}
+
+.titulo_nome {
+    color: rgb(46, 46, 46);
     font-size: 18px;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    
-    
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
-.descricao_nome { color: rgb(46, 46, 46);
+
+.descricao_nome {
+    color: rgb(46, 46, 46);
     font-size: 15px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
 }
 
-.titulo { color: black;
-    font-size: 18px;
-    font-weight: bold;
-}
 
-.descricao { color: black;
+p {
+    text-align: center;
     font-size: 15px;
-}
-
-inicio
-{ 
-    position: absolute;
-    top: 100;
-    width: 100%;
-    background: #fff;
-    text-align: center;
-    color: #08361c;
-    font-family: Futura;
-    font-size: 20px;
-    font-weight: bold;
-    height: auto;
-    background-attachment: local;
-    margin-top: 100px;
-}
-
-.center {
-    height : 100px;
-    line-height : 100px;
-    border : 1px solid black;
-    }
- 
-    #form{position: relative;
-        top: -100px;
-        left: 50%;
-        transform: translate(0%,0%);
-    }
- 
-    #nomeanimal{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #nometutor{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #telefonetutor{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #emailtutor{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #dataperdido{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #localidade{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px  #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #ultlocalizacao{
-        font-size: 15px;
-        height: 40px;
-        width: 350px;
-        border: 1px #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-    #infogerais{
-        font-size: 15px;
-        height: 100px;
-        width: 350px;
-        border: 1px  #000;
-        padding: 10px;
-        margin: 0.5% 30px 10px 45% ;
-        background-color: rgb(236, 234, 234);
-    }
-
-    .rodape {
-
-        width:100%;
-        text-align: center;
-        color: white;
-        background-color: #013618;
-        background-attachment: fixed;
-        top: 150%;
-        position: absolute;
-        
-       
-        
-    
-    }
-p{
-    text-align: center;
-      font-size: 15px;
-      font-family:'Times New Roman', Times, serif;
-      color: rgb(46, 46, 46);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 46, 46);
 
 }
-header a:hover{
+
+header a:hover {
     color: #079344;
     font-size: 25px;
-    }
+}
 
 
-    .nav-list {
-        list-style: none;
-          display: flex;
-          margin: 200px auto;
-         
-         
-    }
-    
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 200px auto;
 
-.flex-container{
-display: flex;
 
 }
 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-family: 'Times New Roman', Times, serif;
-        background: #ffffff;
-        height: 30vh;
-        text-align: justify;
-        overflow: hidden;
-        
-    }
-    
 
-    
-    .nav-list li {
-        display: flex;
-        letter-spacing: 3px;
-        margin-left: 2px;
-        font-size: 20px;
-        text-transform: uppercase;
-        padding: 70px 30px;
-     }
-    
+.flex-container {
+    display: flex;
 
-   .field{
-	width: 50%;
-	border: 2px solid rgba(0, 0, 0, 0);
-	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.4rem 1rem;
-	font-size: 1.1rem;
-	margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffff;
+    height: 30vh;
+    text-align: justify;
+    overflow: hidden;
+
+}
+
+
+
+.nav-list li {
+    display: flex;
+    letter-spacing: 3px;
+    margin-left: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 70px 30px;
+}
+
+
+.field {
+    display: flex;
+    width: 110%;
+    
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    transition: .3s;
+    color: gray;
+    margin-left: -25px;
+
+}
+
+
+input:focus,
+label:focus {
+    display: block;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    transition: .3s;
+    color: gray;
+    margin-left: 0px;
+
+}
+
+input:focus {
+    border-color: #27ae60;
+
+}
+
+
+input,
+label {
+
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.4rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.select_bicho{
+
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
     margin-top: 5px;
-	transition: .3s;
-	color: gray;
-
-
-}
-.contact-box{
-	max-width: 500px;
-	width: 100%;
-	background: #fff;
-	margin: 20px auto;
-	padding: 30px;
+    transition: .3s;
+    color: gray;
+    margin-left: 0px;
+    overflow: hidden;
     
-}
-h2{
+    }
+
+
+
+h2 {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     color: #2ecc71;
     text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
-  }
-  
-  h2:after{
-      content: '';
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      transform: translateX(-50%);
-      height: 4px;
-      width: 50px;
-      border-radius: 2px;    
-  }
+    margin-left: 300px;
+}
 
-  
-  .cadastro {
+h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+}
+
+
+.cadastro {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -265,77 +194,135 @@ h2{
     background-color: #ebebeb;
     color: gray;
     border-radius: 15px;
-	max-width: 500px;
-	width: 100%;
-	margin-left: 420px;
-	
-  }
-  
-  .cadastro div {
     max-width: 500px;
-	width: 100%;
+    width: 100%;
+    margin-left: 420px;
+
+}
+
+.cadastro div {
+    max-width: 500px;
+    width: 100%;
     padding: 10px;
     text-align: right;
-		
-  }
-  
-  .cadastro div * {
-    margin: 5px;
-  }
-
-.btn{color: white;
-    background-color: #013618;
-    width: 350px;
-    height: 40px;
-    margin: 3% 10% -30% 13% ;
-    cursor: pointer;
-    
 
 }
 
+.cadastro div * {
+    margin: 5px;
+}
 
-.box-img{
-    margin-top: 0%;
-    
+input[type="submit"] {
     width: 100%;
-    height: 50%;
+    padding: 0.3rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+}
+
+.teste {
+    min-width: 150px;
+}
+
+
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid rgb(89, 87, 87);
+}
+
+
+.btn:hover {
+    background-color: #27ae60;
+}
+
+.template {
+    display: none;
+}
+
+
+
+.box-img {
+    margin-top: 0%;
+    align-self: center;
+    width: 60%;
+    height: 40%;
     margin-bottom: 20px;
     border: 2px solid rgb(208, 205, 210);
-    
+    margin-left: 20%;
+
 }
-  
+
 .box {
     margin-top: 30%;
-       
-    height: 400px;
-    width: 120%;
-    background-color: rgb(235, 232, 232);
-    margin-left: 60%;
-    padding: 20px;
-    border: 1px solid rgb(208, 205, 205);
-    
-  }
-  
-    .botão-comentário {
-      display: block;
-      margin-left: 80px;
-      margin-right: auto;
-    }
-  
-    .texto-box-img {
-        
-      text-align: center;
-      font-size: 10px;
-      font-family:'Times New Roman', Times, serif;
-      color: rgb(46, 46, 46);
-    }
-  
-  .teste {
-    min-width: 150px;
-  }
 
-  
- #linha-horizontal {
-	width: 100%;
-	border: 1px solid rgb(89, 87, 87);
-   }
+    height: 350px;
+    width: 60%;
+    background-color: rgb(235, 232, 232);
+    margin-left: 30%;
+    padding: 10px;
+    border: 1px solid rgb(208, 205, 205);
+
+}
+
+.botão-comentário {
+    display: block;
+    margin-left: 80px;
+    margin-right: auto;
+}
+
+.texto-box-img {
+
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 46, 46);
+}
+
+
+
+.contact-box {
+    display: flex;
+    max-width: 100px;
+    width: 50%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    margin-left: 0%;
+
+}
+
+textarea{
+    size: 80px;
+	min-height: 80px;
+    min-width: 100%;
+}
+
+
+footer {
+    
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #013618;
+    bottom:0;
+    position: fixed;
+
+
+
+
+}
+
+.error-validation{
+    font-size: 15px;
+    font-weight: 300;
+    color: #2ecc71;
+    font-family: 'Montserrat'
+
+}

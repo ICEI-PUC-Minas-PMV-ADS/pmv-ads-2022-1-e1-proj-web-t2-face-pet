@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastrar animal perdido</title>
     <linK rel="stylesheet" href="PerdieAgora_style.css">
-    <script type="text/javascript"></script>
+    <script src="js/PerdieAgora"></script>
+
 </head>
+
 <body>
 
     <header>
@@ -22,75 +24,105 @@
             </ul>
         </nav>
     </header>
-  <div id="linha-horizontal"></div>
+    <div id="linha-horizontal"></div>
 
-  <section class="flex-container">
+    <section class="flex-container">
 
 
-    <div class="flex-item nav">
-        <div class="row">
-          <div class="box col teste">
-              <img src="image/cao01.png" class="box-img">
-              <div class="texto-box-img">
-              <div class="titulo_nome">LESSI</div>
-              <div class="descricao_nome">Nome do Tutor: Henrique</div>
-              <div class="descricao_nome">Telefone: (11) 11111-11111</div><br>
-              <p>Femêa, 5 anos. Perde-se em Santos próximo a praia no dia 21/12/21 ...</p>
-              </div>
-              <div class="botão-comentário"><br>
-              <a href="https://www.facebook.com/"> <img src="image/compartilhar-facebook.png" width="75px" alt="10px"></a> 
-              <a href="teste.html"> <img src="image/comentario.png" width="21px" alt="30px"></a>
-              </div>
-          </div>
-         
+        <div class="flex-item nav">
+            <div class="row">
+                <div class="box col teste">
+                    <img src="image/cao01.png" class="box-img">
+                    <div class="texto-box-img">
+                        <div class="titulo_nome">LESSI</div>
+                        <div class="descricao_nome">Nome do Tutor: Henrique</div>
+                        <div class="descricao_nome">Telefone: (11) 11111-11111</div><br>
+                        <p>Femêa, 5 anos. Perde-se em Santos próximo a praia no dia 21/12/21 ...</p>
+                    </div>
+                    <div class="botão-comentário"><br>
+                        <a href="https://www.facebook.com/"> <img src="image/compartilhar-facebook.png" width="75px"
+                                alt="10px"></a>
+                        <a href="teste.html"> <img src="image/comentario.png" width="21px" alt="30px"></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-    <form id="Formulario">
+
+        <main>
+        <form id="formulario">
 
 
             <div class="flex item nav-lista">
                 <h2>CADASTRO DE ANIMAIS PERDIDOS<h2>
-                        <input type="text" placeholder="Imagem do Animal" class="field" />
-                        <input type="text" placeholder="Nome do Animal" name="animal" class="field" />
-                        <select class="field">
+                        <div class="field">
+                        <input type="text" placeholder="Imagem do Animal">
+                        </div>
+                        <div class="field">
+                        <input type="text" placeholder="Nome do Animal" name="animal" id="animal" data-min-length="1">
+                        </div>
+                        <div class="field">
+                        <select class="select_bicho" data-min-length="1">
                             <option value="">Espécie do Animal</option>
                             <option value="male">Cachorro</option>
                             <option value="female">Gato</option>
                             <option value="male">Ave</option>
                             <option value="female">Outro</option>
                         </select>
-                        <input type="text" placeholder="Nome do Tutor" name="tutor" maxlength="100" class="field" />
-                        <input type="text" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone"
-                            maxlength="100" class="field" />
-                        <input type="text" placeholder="Email do Tutor" name="emailtutor" maxlength="100"
-                            class="field" />
-                        <input type="text" placeholder="Data que o Animal Foi Perdido" name="dataperdido"
-                            maxlength="100" class="field" />
-                        <input type="text" placeholder="Cidade e Estado" name="localidade" maxlength="200"
-                            class="field" />
-                        <input type="text" placeholder="Última Localização que o Animal foi Visto" class="field" />
-                        <textarea type="text" placeholder="Demais detalhes sobre o Animal" name="info"
-                            class="field"></textarea> </textarea>
+                        </div>
+                        <div class="field">
+                        <input type="text" placeholder="Nome do Tutor" name="tutor" id= "tutor" required>
+                        </div>
+                        <div class="field">
+                        <input type="number" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone" id="telefone" required
+                        data-min-length="10">
+                        </div>
+                        <div class="field">
+                        <input type="email" placeholder="Email do Tutor" name="emailtutor" id="emailtutor"data-min-length="1" required>
+                        </div>
+                        <div class="field">
+                        <input type="text" placeholder="Data que o Animal Foi Perdido" name="dataperdido" id="dataperdido" required>
+                        </div>
+                        <div class="field">
+                        <input type="text" placeholder="Cidade e Estado" name="localidade" id="localidade" required>
+                        </div>
+                        <div class="field">
+                        <input type="text" placeholder="Última Localização que o Animal foi Visto" name="ultimalocalidade" id="ultimalocalidade" required>
+                    </div>
+                    <div class="field">
+                        <textarea type="text" placeholder="Demais detalhes sobre o Animal" name="info" id="info"></textarea>
+                            
+                        </div>
 
-                      <button class="btn">Cadastrar</button>
+                        
+                        <input type="submit" onclick = "cadastroAnimal()" id="btn" value = "Cadastrar">
+
+
             </div>
+
+            
+        
+         
+        </form>
+        <div class="cadastro"></div> 
+    <script src="./PerdiAgora.js"></script>
+
        
-    </form>
-    <footer class="rodape">
-        Pet Face - Encontre o seu pet aqui! <br>
-        Projeto Grupo 02 - PUC Minas 2022/01
-     </footer>
+    </main>
+
+
+       
+        
+        <footer class="rodape">
+            Pet Face - Encontre o seu pet aqui! <br>
+            Projeto Grupo 02 - PUC Minas 2022/01
+        </footer>
 </section>
 
 
-    <div class="cadastro"></div>
-    </main>
-
-    <script src="./perdiApp.js"></script>
+    
 
 
-
-  
 
 </body>
 
