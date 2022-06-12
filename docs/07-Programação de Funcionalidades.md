@@ -12,7 +12,7 @@ Ainda encontrará a opção de compartilhamento para rede sociais e comentários
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/Pagina%20Home.png")
  </p>
 
-<p align="center"> Figura 06 - Tela "Pagina Home". </p>  
+<p align="center"> Figura - Tela "Pagina Home". </p>  
 
 ### Requisitos atendidos
 -	RF-009  - O site deve permitir que o usuário compartilhe as informações dos animais em plataformas de redes sociais
