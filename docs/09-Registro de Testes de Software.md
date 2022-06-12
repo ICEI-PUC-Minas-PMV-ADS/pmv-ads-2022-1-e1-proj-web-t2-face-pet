@@ -52,7 +52,7 @@ O resultado do teste constatou que o formulário situado na página "Perdi, e ag
 O resultado do teste constatou que o formulário situado na página "Perdi, e agora?" não permite que o cadastro de animais perdidos seja finalizado sem informar o número do telefone do tutor..
 
 <p align="center">
-<img src="[https://user-images.githubusercontent.com/100412134/171067456-7e7b731e-b9e0-4fa5-b3ef-7c102b510885.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/cadastro_erro_telefone.png)")
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/cadastro_erro_telefone.png)")
  </p>
 
 <p align="center"> Figura 02 - Caso de sucesso para o teste CT-02. </p>
