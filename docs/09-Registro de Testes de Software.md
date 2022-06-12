@@ -33,3 +33,14 @@ O resultado do teste constatou que o formulário situado na página "Encontrei, 
  </p>
 
 <p align="center"> Figura 10 - Caso de sucesso para o teste CT-02. </p>
+
+## CT-03 - Resultado de busca de animal cadastrado
+
+O resultado do teste constatou que o formulário de busca situado na página "Pesquisa" permite que seja encontrado animais cadastrados com as características informadas, conforme ilustrado na figura 11.
+
+<p align="center">
+<img src="docs/img/resultadoPesquisa.png")
+ </p>
+
+<p align="center"> Figura 11 - Caso de sucesso para o teste CT-03. </p>
+
