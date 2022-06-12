@@ -35,3 +35,11 @@ Tela em que é possível cadastrar os animais encontrados por pessoas que deseja
 <p align="center"> Figura Tela "Encontrei, e agora?". </p>  
 
 ## Página de Cadastro "Perdi, e agora?"
+
+Tela em que é possível cadastrar os animais perdidos, para que seja possível ser visualizada por que encontre esses animais, conforme Figura 06.
+
+<p align="center">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/perdi_agora.png")
+ </p>
+
+<p align="center"> Figura Tela "Perdi, e agora?". </p>  
