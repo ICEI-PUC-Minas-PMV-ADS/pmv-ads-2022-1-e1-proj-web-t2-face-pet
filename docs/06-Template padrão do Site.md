@@ -15,7 +15,7 @@ Tela de busca a animais perdidos com filtros para agilizar a procura do pet desa
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/9fb65706c4e42529c9d3cde89b50e1e1f7ae7d61/docs/img/Captura%20de%20ecr%C3%A3%202022-06-03%20231032.png"
      </p>
 
-<p align="center"> Figura - Tela "Pesquisa". </p>
+<p align="center"> Figura 04 - Tela "Pesquisa". </p>
                                            
 ## Página de Cadastro "Encontrei, e agora?"
 Tela em que é possível cadastrar os animais encontrados por pessoas que desejam localizar o dono do animal, conforme descrito na Figura 05.
