@@ -76,7 +76,7 @@ A tela "Encontrei, e agora?" do sistema apresenta um formulário para que pessoa
 A tela "Perdi, e agora?" do sistema apresenta um formulário para o usuário possa cadastrar o seu animal que foi perdido. Os cadastros são armazenados no LocalStorage com estruturas de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 09. 
 
 <p align="center">
-<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/perdi_agora.png")
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet/blob/main/docs/img/perdi_agora.png")
  </p>
 
 <p align="center"> Figura 09 - Tela "Perdi, e agora?". </p>  
