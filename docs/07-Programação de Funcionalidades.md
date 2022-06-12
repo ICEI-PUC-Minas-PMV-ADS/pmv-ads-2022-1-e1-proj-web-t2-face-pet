@@ -71,3 +71,27 @@ A tela "Encontrei, e agora?" do sistema apresenta um formulário para que pessoa
 - O formulário de cadastro será exibido;
 - Preencha o formulário de clique o no botão "Cadastrar".
 
+## Cadastro de Animais Perdidos (RF-001 e RF003)
+
+A tela "Perdi, e agora?" do sistema apresenta um formulário para o usuário possa cadastrar o seu animal que foi perdido. Os cadastros são armazenados no LocalStorage com estruturas de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 09. 
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/101607336/173251236-7b2e4aa0-275f-4ae7-8831-edcc3e803ab8.png")
+ </p>
+
+<p align="center"> Figura 09 - Tela "Perdi, e agora?". </p>  
+  
+### Requisitos atendidos
+-	RF-001 - O site deve permitir que o usuário cadastre as informações do seu animal perdido.
+-	RF-003 - O site deve permitir que seja inserida uma foto do animal no seu cadastro.
+
+### Artefatos da funcionalidade
+-	PerdiAgora.html
+-	PerdiiAgora.js
+-	PerdiAgora.css
+
+### Instruções de acesso
+-	Abra um navegador de Internet e informe a URL do site;
+-	Na tela principal, clique em "Perdi, e agora?" no menu de navegação;
+- O formulário de cadastro será exibido;
+- Preencha o formulário de clique o no botão "Cadastrar".
