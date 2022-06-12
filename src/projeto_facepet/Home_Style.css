@@ -17,7 +17,7 @@ a:active{
 
 a:hover{
   color: #079344;
-  font-size: 25px;
+  font-size: 30px;
   }
 
 nav {
@@ -38,38 +38,38 @@ nav {
   }
 
 .nav-list li {
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   margin-left: 32px;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
   padding: 70px 30px;
 }
 
 .nav-list li::after{
-   content: " ";
-   width: 100%;
-   height: 4px;
-   background-color: #92ec92;
+  content: " ";
+  width: 100%;
+  height: 4px;
+  background-color: #92ec92;
   }
 
 .logo {
-   align-items: center;
-   height: 200px;
-   width: 200px;
+  align-items: center;
+  height: 200px;
+  width: 240px;
   }
 
-  .search-box {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #f0f0f0;
-    height: 6%;
-    width: 20%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#search-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f0f0f0;
+  height: 6%;
+  width: 20%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #linha-horizontal {
@@ -94,29 +94,29 @@ nav {
   height: 60%;
   margin-bottom: 2px;
   border: 2px solid rgb(208, 205, 210);
-}
-
-  .botão-comentário {
-    display: block;
-    margin-left: 90px;
-    margin-right: auto;
   }
 
-  .texto-box-img {
-    text-align: center;
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
-    color: rgb(46, 46, 46);
+.botão-comentário {
+  display: block;
+  margin-left: 90px;
+  margin-right: auto;
   }
 
-  #footer {
-    width:100%;
-    height: 60px;
-    position: fixed;
-    text-align: center;
-    color: white;
-    background-color: #013618;
-    background-attachment: local;
-    position: relative;
-    padding-top: 8px;
+.texto-box-img {
+  text-align: center;
+  font-size: 14px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(46, 46, 46);
+  }
+
+#footer {
+  width:100%;
+  height: 70px;
+  position: fixed;
+  text-align: center;
+  color: white;
+  background-color: #013618;
+  background-attachment: local;
+  position: relative;
+  padding-top: 9px;
 }
