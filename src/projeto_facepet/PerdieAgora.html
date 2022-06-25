@@ -14,13 +14,13 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-expand-sm bg-light">
+        <nav>
             <ul class="nav-list">
-                <li><a class="text-decoration-none" href="Home.html">HOME</a></li>
-                <li><a class="text-decoration-none" href="Pesquisa.html">PESQUISA</a></li>
-                <img class="logo" src="image/petfacelogo.ico" alt="logo" width="250px">
-                <li><a class="text-decoration-none" href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
-                <li><a class="text-decoration-none" href="PerdieAgora.html">PERDI, <br> E AGORA?</a></li>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Pesquisa.html">PESQUISA</a></li>
+                <img class="logo" src="petface.png.png" alt="logo" width="250px">
+                <li><a href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
+                <li><a href="PerdieAgora.html">PERDI, <br> E AGORA?</a></li>
             </ul>
         </nav>
     </header>
@@ -50,77 +50,83 @@
         </div>
 
         <main>
-        <form id="formulario">
+            <form id="formulario">
 
 
-            <div class="flex item nav-lista">
-                <h2>CADASTRO DE ANIMAIS PERDIDOS<h2>
-                        <div class="field">
-                        <input type="text" placeholder="Imagem do Animal">
-                        </div>
-                        <div class="field">
-                        <input type="text" placeholder="Nome do Animal" name="animal" id="animal" data-min-length="1">
-                        </div>
-                        <div class="field">
-                        <select class="select_bicho" data-min-length="1">
-                            <option value="">Espécie do Animal</option>
-                            <option value="male">Cachorro</option>
-                            <option value="female">Gato</option>
-                            <option value="male">Ave</option>
-                            <option value="female">Outro</option>
-                        </select>
-                        </div>
-                        <div class="field">
-                        <input type="text" placeholder="Nome do Tutor" name="tutor" id= "tutor" required>
-                        </div>
-                        <div class="field">
-                        <input type="number" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone" id="telefone" required
-                        data-min-length="10">
-                        </div>
-                        <div class="field">
-                        <input type="email" placeholder="Email do Tutor" name="emailtutor" id="emailtutor"data-min-length="1" required>
-                        </div>
-                        <div class="field">
-                        <input type="text" placeholder="Data que o Animal Foi Perdido" name="dataperdido" id="dataperdido" required>
-                        </div>
-                        <div class="field">
-                        <input type="text" placeholder="Cidade e Estado" name="localidade" id="localidade" required>
-                        </div>
-                        <div class="field">
-                        <input type="text" placeholder="Última Localização que o Animal foi Visto" name="ultimalocalidade" id="ultimalocalidade" required>
-                    </div>
-                    <div class="field">
-                        <textarea type="text" placeholder="Demais detalhes sobre o Animal" name="info" id="info"></textarea>
-                            
-                        </div>
+                <div class="flex item nav-lista">
+                    <h2>CADASTRO DE ANIMAIS PERDIDOS<h2>
+                            <div class="field">
+                                <input type="text" placeholder="Imagem do Animal">
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Nome do Animal" name="animal" id="animal"
+                                    data-min-length="1">
+                            </div>
+                            <div class="field">
+                                <select class="select_bicho" data-min-length="1">
+                                    <option value="">Espécie do Animal</option>
+                                    <option value="male">Cachorro</option>
+                                    <option value="female">Gato</option>
+                                    <option value="male">Ave</option>
+                                    <option value="female">Outro</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Nome do Tutor" name="tutor" id="tutor" required>
+                            </div>
+                            <div class="field">
+                                <input type="number" placeholder="Telefone do Tutor (xx) xxxxx-xxxx" name="telefone"
+                                    id="telefone" required data-min-length="10">
+                            </div>
+                            <div class="field">
+                                <input type="email" placeholder="Email do Tutor" name="emailtutor" id="emailtutor"
+                                    data-min-length="1" required>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Data que o Animal Foi Perdido" name="dataperdido"
+                                    id="dataperdido" required>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Cidade e Estado" name="localidade" id="localidade"
+                                    required>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Última Localização que o Animal foi Visto"
+                                    name="ultimalocalidade" id="ultimalocalidade" required>
+                            </div>
+                            <div class="field">
+                                <textarea type="text" placeholder="Demais detalhes sobre o Animal" name="info"
+                                    id="info"></textarea>
 
-                        
-                        <input type="submit" onclick = "cadastroAnimal()" id="btn" value = "Cadastrar">
-
-
-            </div>
-
-            
-        
-         
-        </form>
-        <div class="cadastro"></div> 
-    <script src="./PerdiAgora.js"></script>
-
-       
-    </main>
+                            </div>
 
 
-       
-        
+                            <input type="submit" onclick="cadastroAnimal()" id="btn" value="Cadastrar">
+
+
+                </div>
+
+
+
+
+            </form>
+            <div class="cadastro"></div>
+            <script src="./PerdiAgora.js"></script>
+
+
+        </main>
+
+
+
+
         <footer class="rodape">
-            Pet Face - Encontre o seu pet aqui! <br>
+            Pet Face - Encontre o seu PET aqui! <br>
             Projeto Grupo 02 - PUC Minas 2022/01
         </footer>
-</section>
+    </section>
 
 
-    
+
 
 
 

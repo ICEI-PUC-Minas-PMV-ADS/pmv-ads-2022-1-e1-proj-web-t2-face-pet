@@ -4,18 +4,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(69, 68, 68);
 }
 
-
 .header {
-
     background: #fff;
     position: relative;
     top: 100;
     width: 100%;
     text-align: center;
-    color: #27ae60;
+    color: #079344;
     font-size: 24px;
     font-weight: bold;
     height: auto;
@@ -25,7 +25,7 @@
 }
 
 .titulo_nome {
-    color: rgb(46, 46, 46);
+    color: rgb(69, 68, 68);
     font-size: 18px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -51,6 +51,7 @@ p {
 }
 
 header a:hover {
+    text-decoration: none;
     color: #079344;
     font-size: 25px;
 }
@@ -60,8 +61,6 @@ header a:hover {
     list-style: none;
     display: flex;
     margin: 200px auto;
-
-
 }
 
 
@@ -82,22 +81,21 @@ nav {
 
 }
 
-
-
 .nav-list li {
+    text-decoration: none;
     display: flex;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-left: 2px;
     font-size: 20px;
     text-transform: uppercase;
     padding: 70px 30px;
+
 }
 
 
 .field {
     display: flex;
     width: 110%;
-    
     padding: 0.4rem 1rem;
     font-size: 1.1rem;
     margin-bottom: 2px;
@@ -144,7 +142,8 @@ label {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
-.select_bicho{
+
+.select_bicho {
 
     outline: none;
     border: none;
@@ -158,8 +157,8 @@ label {
     color: gray;
     margin-left: 0px;
     overflow: hidden;
-    
-    }
+
+}
 
 
 
@@ -298,28 +297,27 @@ input[type="submit"] {
 
 }
 
-textarea{
+textarea {
     size: 80px;
-	min-height: 80px;
+    min-height: 80px;
     min-width: 100%;
 }
 
 
 footer {
-    
+
     width: 100%;
     text-align: center;
     color: white;
     background-color: #013618;
-    bottom:0;
+    bottom: 0;
     position: fixed;
-
-
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 
 }
 
-.error-validation{
+.error-validation {
     font-size: 15px;
     font-weight: 300;
     color: #2ecc71;

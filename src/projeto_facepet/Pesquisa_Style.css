@@ -53,9 +53,9 @@ nav {
     }
 
  .logo {
-     align-items: center;
-     height: 200px;
-     width: 200px;
+    align-items: center;
+    height:210px;
+    width: 220px;
     }
 
 #search-box {
@@ -139,4 +139,6 @@ p{
     background-attachment: fixed;
     top: 150%;
     position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
 }
