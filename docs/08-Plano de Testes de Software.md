@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | Caso de Teste  |  CT-02 - Cadastrar um animal encontrado sem informar o e-mail para contato  |
 | ------------------- | ------------------- |
-|  Requisitos Associados |  RF-001 O site deve permitir que o usuário cadastre as informações do seu animal perdido.<br> RF-002 O site deve permitir que o usuário cadastre as informações de um animal encontrado, com imagens, e dados de localização e contacto de quem o encontrou.<br> RF-003 O site deve permitir que seja inserida uma foto do animal no seu cadastro. |
+|  Requisitos Associados |  RF-001 O site deve permitir que o usuário cadastre as informações do seu animal perdido.<br> RF-002 O site deve permitir que o usuário cadastre as informações de um animal encontrado, com imagens, e dados de localização e contacto de quem o encontrou. |
 |  Objetivo do Teste |  Verificar se o usuário consegue cadastrar um animal encontrado sem informar seu e-mail para contato no campo "Seu e-mail" |
 |  Passos | 1) Acessar o Navegador <br> 2) Informar o endereço do site <br>3) Visualizar a página "Encontrei, e agora?" <br>4) Não preencher o campo "Seu e-mail" do formulário de cadastro <br>5) Clicar no botão "Cadastrar" |
 |  Critérios de Êxito |  ● O site deve exibir uma mensagem solicitando o e-mail do usuário caso essa informação não tenha sido fornecida no campo "Seu e-mail".|
