@@ -3,22 +3,22 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    }
+}
 
-a:visited{
-    text-decoration:none;
-    color:rgb(69, 68, 68);
-    }
+a:visited {
+    text-decoration: none;
+    color: rgb(69, 68, 68);
+}
 
-a:active{
-    text-decoration:none;
+a:active {
+    text-decoration: none;
     color: #079344;
-    }
+}
 
-a:hover{
+a:hover {
     color: #079344;
     font-size: 25px;
-    }
+}
 
 nav {
     display: flex;
@@ -29,13 +29,13 @@ nav {
     height: 30vh;
     text-align: justify;
     overflow: hidden;
-    }
+}
 
 .nav-list {
     list-style: none;
     display: flex;
-    margin: 200px auto;    
-    }
+    margin: 200px auto;
+}
 
 .nav-list li {
     letter-spacing: 3px;
@@ -43,29 +43,36 @@ nav {
     font-size: 20px;
     text-transform: uppercase;
     padding: 70px 30px;
- }
+}
 
-.nav-list li::after{
+.nav-list li::after {
     content: " ";
     width: 100%;
     height: 4px;
     background-color: #92ec92;
-    }
+}
 
 .logo {
     align-items: center;
     height: 200px;
     width: 200px;
-    }
+}
 
 #linha-horizontal {
     width: 100%;
     border: 1px solid rgb(89, 87, 87);
-    }
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 40%;
+    padding-top: 2%;
+}
 
 .box {
-    justify-content:center;
-    display:inline-block;
+    justify-content: center;
+    display: inline-block;
     height: 350px;
     background-color: rgb(235, 232, 232);
     vertical-align: top;
@@ -73,34 +80,34 @@ nav {
     padding: 14px;
     border: 1px solid rgb(208, 205, 205);
     box-sizing: border-box;
-    }
+}
 
-.box-img{
+.box-img {
     display: block;
     width: 100%;
     height: 100%;
     margin-bottom: 5px;
-    border: 3px solid rgb(208, 205, 210);   
-    }
+    border: 3px solid rgb(208, 205, 210);
+}
 
 .card {
-    text-align:justify;
+    text-align: justify;
     font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(69, 68, 68);
     letter-spacing: 2px;
     line-height: 19px;
-    }
+}
 
-.btn{
+.btn {
     border: none;
     outline: none;
     cursor: pointer;
     transition: .3s;
-    }
-       
+}
+
 #footer {
-    width:100%;
+    width: 100%;
     height: 60px;
     position: fixed;
     text-align: center;
@@ -109,4 +116,4 @@ nav {
     background-attachment: local;
     position: relative;
     padding-top: 8px;
-    }    
+}
