@@ -56,9 +56,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |  Passos | 1) Acessar o Navegador <br> 2) Informar o endereço do site <br>3) Visualizar a página "Pesquisa" <br>4) Preencher o campo do formulário de busca <br>5) Clicar no botão "Lupa" |
 |  Critérios de Êxito |  ● A Busca deve ser realizado após o usuário clicar no botão "Lupa".|
 
-| Caso de Teste  |  CT-02 - Pesquisa de animal não cadastrado  |
+| Caso de Teste  |  CT-02 - Pesquisa com filtros  |
 | ------------------- | ------------------- |
-|  Requisitos Associados |  RF-001 O site deve direcionar o usuário para página de erro e pedir que tente fazer nova busca.<br> 
-|  Objetivo do Teste |  Verificar se o usuário consegue realizar a busca do animal perdido que não está cadastrado |
-|  Passos | 1) Acessar o Navegador <br> 2) Informar o endereço do site <br>3) Visualizar a página "Pesquisa" <br>4) Preencher o formulário de busca com características do animal não cadastrado <br>5) Clicar no botão "Lupa" |
-|  Critérios de Êxito |  ● O site deve direcionar para a pagina de erro solicitando que refaça a pesquisa.|
+|  Requisitos Associados |  RF-005 O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi encontrado.<br> RF-006 O site deve permitir que o usuário pesquise os animais cadastrados pela data que foi perdido.<br> RF-007 O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro ou região que foi localizado.<br> RF-008 O site deve permitir que o usuário pesquise os animais cadastrados pelo bairro que foi visto pela última vez.<br>
+|  Objetivo do Teste |  Verificar se o usuário consegue realizar a busca do animal por filtros |
+|  Passos | 1) Acessar o Navegador <br> 2) Informar o endereço do site <br>3) Visualizar a página "Pesquisa" <br>4) Selecionar as opções de filtro que desejar <br>5) Clicar no botão "Lupa" |
+|  Critérios de Êxito |  ● O site deve direcionar para pagina com resultados filtrados.|
