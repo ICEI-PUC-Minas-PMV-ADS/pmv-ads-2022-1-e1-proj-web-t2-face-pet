@@ -1,7 +1,9 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+Elaborar canais de comunicação capazes de ampliar o alcance das buscas por animais perdidos; <br>
+Diminuir a população de animais abandonados;<br>
+Auxiliar ONGs que trabalham com a proteção animal.<br>
 
 Link de Acesso ao Pet Face
 
-https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t2-face-pet/Home.html
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t2-face-pet/src/index.html
