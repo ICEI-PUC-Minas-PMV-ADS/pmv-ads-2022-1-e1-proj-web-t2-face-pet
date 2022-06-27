@@ -17,7 +17,7 @@ a:active {
 
 a:hover {
   color: #079344;
-  font-size: 34px;
+  font-size: 25px;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav {
   height: 30vh;
   text-align: justify;
   overflow: hidden;
-}
+  }
 
 .nav-list {
   list-style: none;
@@ -38,11 +38,11 @@ nav {
 }
 
 .nav-list li {
-  letter-spacing: 8px;
-  margin-left: 30px;
-  font-size: 26px;
+  letter-spacing: 3px;
+  margin-left: 32px;
+  font-size: 20px;
   text-transform: uppercase;
-  padding: 100px 30px;
+  padding: 80px 40px;
 }
 
 .nav-list li::after {
@@ -54,22 +54,8 @@ nav {
 
 .logo {
   align-items: center;
-  height:260px;
-  width: 280px;
-}
-
-#search-box {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #f0f0f0;
-  height: 6%;
-  width: 20%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 210px;
+  width: 220px;
 }
 
 #linha-horizontal {
@@ -98,17 +84,17 @@ nav {
 
 .botão-comentário {
   display: block;
-  margin-left: 90px;
+  margin-left: 60px;
   margin-right: auto;
 }
 
 .botão-comentário a:not(.ignoreCss) {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .texto-box-img {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(46, 46, 46);
 }
