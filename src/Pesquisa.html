@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <title>Pet Face</title>
     <link rel="stylesheet" href="Pesquisa_Style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <script src=""></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=""></script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul class="nav-list">
-                <li><a href="Home.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="Pesquisa.html">PESQUISA</a></li>
                 <img class="logo" src="image/petface.png.png" alt="logo" width="250px">
                 <li><a href="EncontreieAgora.html">ENCONTREI, <br> E AGORA?</a></li>
@@ -28,39 +30,47 @@
             </div>
         </div>
 
-    <p class="title">CADÊ MEU PET?</p>
-    <form action="">
-        <div id="search-box">
-            <input id="pesquisarAnimal" type="search" class="search-text" placeholder="Pesquisar...">
-            <a id="search-btn" href="gato.html" type="submit"><span>
-                <img class="lupa" src="./image/botaopesquisa.svg" alt="" width="40px" height="40px"></span>
-            </a>
-        </div>
-    </form>
+        <p class="title">CADÊ MEU PET?</p>
+        <form action="">
+            <div id="search-box">
+                <input id="pesquisarAnimal" type="search" class="search-text" placeholder="Pesquisar...">
+                <a id="search-btn" href="gato.html" href="cao.html" type="submit"><span>
+                        <img class="lupa" src="./image/botaopesquisa.svg" alt="" width="40px" height="40px"></span>
+                </a>
+            </div>
+        </form>
 
-       <form id="filtro" class="busca" action="">
+        <form id="filtro" class="busca" action="">
 
-           <label for="caes"><input class="checkbox" id="caes" onchange="PesquisaAnimal()" type="checkbox" name="caes" value="caes" checked> CÃES</label>
+            <label for="caes"><input class="checkbox" id="caes" onchange="PesquisaAnimal()" type="checkbox" name="caes"
+                    value="caes" checked> CÃES</label>
 
-           <label for="gatos"><input class="checkbox" id="gatos" onchange="PesquisaAnimal()" type="checkbox" name="gatos" value="gatos"> GATOS</label>
+            <label for="gatos"><input class="checkbox" id="gatos" onchange="PesquisaAnimal()" type="checkbox"
+                    name="gatos" value="gatos"> GATOS</label>
 
-           <label for="outrosAnimais"><input class="checkbox" id="outrosAnimais" onchange="PesquisaAnimal()" type="checkbox" name="outrosAnimais" value="outrosAnimais"> OUTROS ANIMAIS</label>
+            <label for="outrosAnimais"><input class="checkbox" id="outrosAnimais" onchange="PesquisaAnimal()"
+                    type="checkbox" name="outrosAnimais" value="outrosAnimais"> OUTROS ANIMAIS</label>
 
-           <label for="cidade"><input class="checkbox" id="cidade" onchange="PesquisaAnimal()" type="checkbox" name="cidade" value="cidade"> CIDADE</label>
+            <label for="cidade"><input class="checkbox" id="cidade" onchange="PesquisaAnimal()" type="checkbox"
+                    name="cidade" value="cidade"> CIDADE</label>
 
-           <label for="estado"><input class="checkbox" id="estado" onchange="PesquisaAnimal()" type="checkbox" name="estado" value="estado"> ESTADO</label>
+            <label for="estado"><input class="checkbox" id="estado" onchange="PesquisaAnimal()" type="checkbox"
+                    name="estado" value="estado"> ESTADO</label>
 
-           <label for="encontrei"><input class="checkbox" id="encontrei" onchange="PesquisaAnimal()" type="checkbox" name="encontrei" value="encontrei"> ENCONTREI</label>
+            <label for="encontrei"><input class="checkbox" id="encontrei" onchange="PesquisaAnimal()" type="checkbox"
+                    name="encontrei" value="encontrei"> ENCONTREI</label>
 
-           <label for="perdi"><input class="checkbox" id="perdi" onchange="PesquisaAnimal()" type="checkbox" name="perdi" value="perdi"> PERDI</label>
-           
-       </form>
+            <label for="perdi"><input class="checkbox" id="perdi" onchange="PesquisaAnimal()" type="checkbox"
+                    name="perdi" value="perdi"> PERDI</label>
+
+        </form>
 
 
-       <footer class="rodape">
-        Pet Face - Encontre o seu PET aqui! <br>
-        Projeto Grupo 02 - PUC Minas 2022/01
-     </footer>
-</div>
+        <footer class="rodape">
+            Pet Face - Encontre o seu PET aqui! <br>
+            Projeto Grupo 02 - PUC Minas 2022/01
+        </footer>
+    </div>
 </body>
+
 </html>
